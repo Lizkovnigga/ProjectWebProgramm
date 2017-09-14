@@ -6,42 +6,37 @@
 <body>
 
 <header>
+
     <nav>
-        <div class="usernavigation">
-            <ul>
-                <li> <img src="" alt="magnologo"> </li>
-                <li> <a href="tel:">+ 7 900 000 00 00</a> </li>
-                <li>
-                    <form action="">
-                        <input type="search" value="Поиск по сайту">
-                    </form>
-                </li>
-                <li><a href="#">Личный кабинет</a></li>
-                <li><a href="#">Корзина</a></li>
-            </ul>
-        </div>
+        <ul class="usernavigation">
+            <li> <img src="" alt="magnologo"> </li>
+            <li> <a href="tel:">+ 7 900 000 00 00</a> </li>
+            <li>
+                <form action="">
+                    <input type="search" value="Поиск по сайту">
+                </form>
+            </li>
+            <li><a href="#">Личный кабинет</a></li>
+            <li><a href="#">Корзина</a></li>
+        </ul>
 
-        <div class="sitenavigation">
-
-            <ul>
-                <li><a href="#">Все категории</a>
-                    <ul>
-                        <li><a href="#">Роутеры</a></li>
-                        <li><a href="#">Игровые симуляторы</a></li>
-                        <li><a href="#">Комплектующие</a></li>
-                        <li><a href="#">Перефирия</a></li>
-                        <li><a href="#">Настольные лампы</a></li>
-                        <li><a href="#">Моноблоки и ноутубки</a></li>
-                    </ul>
-                </li>
-                <li> <a href="#">Доставка</a> </li>
-                <li> <a href="#">Гарантия</a> </li>
-                <li> <a href="#">Контакты</a> </li>
-            </ul>
-
-        </div>
-
+        <ul class="sitenavigation">
+            <li><a href="#">Все категории</a>
+                <ul>
+                    <li><a href="#">Роутеры</a></li>
+                    <li><a href="#">Игровые симуляторы</a></li>
+                    <li><a href="#">Комплектующие</a></li>
+                    <li><a href="#">Перефирия</a></li>
+                    <li><a href="#">Настольные лампы</a></li>
+                    <li><a href="#">Моноблоки и ноутубки</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">Доставка</a> </li>
+            <li> <a href="#">Гарантия</a> </li>
+            <li> <a href="#">Контакты</a> </li>
+        </ul>
     </nav>
+
 </header>
 
 <main>
@@ -62,168 +57,130 @@
 
         <h3>Фильтр</h3>
 
-        <p>Стоимость</p>
+        <form action="">
+            <fieldset>
+                <legend>Стоимость</legend>
+            </fieldset>
 
-        <p>Производители</p>
+            <fieldset>
+                <legend>Производители</legend>
 
-        <form class="" action="">
+                <label>Lenovo<input type="checkbox"></label>
+                <label>Phillips<input type="checkbox"></label>
+                <label>Acer<input type="checkbox"></label>
+                <label>HP<input type="checkbox"></label>
+            </fieldset>
 
-            <label>Lenovo<input type="checkbox"></label>
+            <fieldset>
+                <legend>Видеокарта</legend>
 
-            <label>Phillips<input type="checkbox"></label>
-
-            <label>Acer<input type="checkbox"></label>
-
-            <label>HP<input type="checkbox"></label>
-
-            <p>Видеокарта</p>
-
-            <label>NVidia<input type="radio"></label>
-
-            <label>AMD<input type="radio"></label>
-
-            <label>Встроенная<input type="radio"></label>
+                <label>NVidia<input type="radio"></label>
+                <label>AMD<input type="radio"></label>
+                <label>Встроенная<input type="radio"></label>
+            </fieldset>
 
             <input type="submit" value="Применить">
-
-            <input type="submit" value="Сбросить фильтр">
-
+            <input type="reset" value="Сбросить фильтр">
         </form>
 
     </section>
 
     <section class="sortingcontent">
 
-        <nav>
+        <div class="sorting">
             <h3>Сортировка</h3>
 
-            <a href="#">По цене</a>
-
-            <a href="#">По типу</a>
-
-            <a href="#">По популярности</a>
-
-            <form action="">
-
-                <label for=""><input type="radio"></label>
-                <label for=""><input type="radio"></label>
-
-            </form>
-        </nav>
-
-        <div clas="laptop">
-
-            <a href="#">В наличии</a>
-
-            <img src="" alt="laptopacer">
-
-            <h5>Ноутбук ACER</h5>
-
-            <form action="">
-
-                <label for="">-<input type="radio"></label>
-                <label for="">+<input type="radio"></label>
-                <input type="submit" value="В корзину">
-
-            </form>
-
-            <span>11020 руб</span>
-
+            <ul>
+                <li><a href="#">По цене</a></li>
+                <li><a href="#">По типу</a></li>
+                <li><a href="#">По популярности</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
         </div>
 
-        <div clas="laptop">
+        <div class="content">
 
-            <a href="#">В наличии</a>
+            <div clas="laptop">
 
-            <img src="" alt="laptopacer">
+                <span>В наличии</span>
+                <img src="" alt="laptopacer">
+                <h3>Ноутбук ACER</h3>
+                <a href="#">-</a> <span>1</span> <a href="#">+</a>
+                <a href="#">В корзину</a>
+                <p><span>11020</span>руб</p>
 
-            <h5>Ноутбук ACER</h5>
+            </div>
 
-            <form action="">
+            <div clas="laptop">
 
-                <label for="">-<input type="radio"></label>
-                <label for="">+<input type="radio"></label>
-                <input type="submit" value="В корзину">
+                <span>В наличии</span>
+                <img src="" alt="laptopacer">
+                <h3>Ноутбук ACER</h3>
+                <a href="#">-</a> <span>1</span> <a href="#">+</a>
+                <a href="#">В корзину</a>
+                <p><span>11020</span>руб</p>
 
-            </form>
+            </div>
 
-            <span>11020 руб</span>
+            <div clas="laptop">
 
-        </div>
+                <span>В наличии</span>
+                <img src="" alt="laptopacer">
+                <h3>Ноутбук ACER</h3>
+                <a href="#">-</a> <span>1</span> <a href="#">+</a>
+                <a href="#">В корзину</a>
+                <p><span>11020</span>руб</p>
 
-        <div clas="laptop">
+            </div>
 
-            <a href="#">В наличии</a>
+            <div clas="laptop">
 
-            <img src="" alt="laptopacer">
+                <span>В наличии</span>
+                <img src="" alt="laptopacer">
+                <h3>Ноутбук ACER</h3>
+                <a href="#">-</a> <span>1</span> <a href="#">+</a>
+                <a href="#">В корзину</a>
+                <p><span>11020</span>руб</p>
 
-            <h5>Ноутбук ACER</h5>
-
-            <form action="">
-
-                <label for="">-<input type="radio"></label>
-                <label for="">+<input type="radio"></label>
-                <input type="submit" value="В корзину">
-
-            </form>
-
-            <span>11020 руб</span>
-
-        </div>
-
-        <div clas="laptop">
-
-            <a href="#">В наличии</a>
-
-            <img src="" alt="laptopacer">
-
-            <h5>Ноутбук ACER</h5>
-
-            <form action="">
-
-                <label for="">-<input type="radio"></label>
-                <label for="">+<input type="radio"></label>
-                <input type="submit" value="В корзину">
-
-            </form>
-
-            <span>11020 руб</span>
+            </div>
 
         </div>
 
     </section>
 
-    <section class="navigation">
+    <section class="pagination">
 
-        <a href="#">Предыдущая</a>
-
-        <a href="#">Следующая</a>
-
-        <form action="">
-
-            <label for="">1<input type="radio"></label>
-            <label for="">2<input type="radio"></label>
-            <label for="">3<input type="radio"></label>
-
-        </form>
+        <ul>
+            <li><a href="#">Предыдущая</a></li>
+            <li><a href="#">Следующая</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+        </ul>
 
     </section>
 
 </main>
 
 <footer>
+
     <section class="infofooter">
 
         <div class="customfooter">
 
-            <ul>
-                <li><img src="" alt="magnologo"></li>
-                <li>МОСКВА, ул. СТРОИТЕЛЕЙ, 15 к 1 офис 456</li>
-                <li> <a href="tel:">8-800-5000-616</a></li>
-                <li> <a href="#">Личный кабинет</a></li>
-                <li> <a href="#">Корзина</a></li>
-            </ul>
+            <div class="footeruserinfo">
 
+                <img src="" alt="magnologo">
+                <span>МОСКВА, ул. СТРОИТЕЛЕЙ, 15 к 1 офис 456</span>
+                <a href="tel:">8-800-5000-616</a>
+
+            </div>
+
+            <div class="usernavigation">
+                <a href="#">Личный кабинет</a>
+                <a href="#">Корзина</a>
+            </div>
         </div>
 
         <div class="servicesandmap">
@@ -234,7 +191,7 @@
                 <li> <a href="#">Контакты</a> </li>
             </ul>
 
-            <iframe src="#" frameborder="0"></iframe>
+            <img src="" alt="map">
 
         </div>
 
@@ -242,13 +199,12 @@
 
             <p>Все права защищены 2017</p>
 
-            <a href="#"> <img src="" alt=""> </a>
-
-            <a href="#"> <img src="" alt=""> </a>
-
-            <a href="#"> <img src="" alt=""> </a>
-
-            <a href="#"> <img src="" alt=""> </a>
+            <ul>
+                <li><a href="#"><img src="" alt="vk"></a></li>
+                <li><a href="#"><img src="" alt="facebook"></a></li>
+                <li><a href="#"><img src="" alt="mail"></a></li>
+                <li><a href="#"><img src="" alt="twitter"></a></li>
+            </ul>
 
         </div>
 
