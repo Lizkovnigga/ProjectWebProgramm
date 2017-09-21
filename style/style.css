@@ -1,0 +1,32 @@
+body{
+}
+.nav{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.usernavigation{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    flex-basis:103px;
+}
+.sitenavigation:first-child{
+    margin-right:20px;
+}
+.sitenavigation{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    flex-basis:111px;
+}
+.sitenavigation li ul{
+    display:none;
+}
+.slider{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
