@@ -25,8 +25,129 @@ body{
 .sitenavigation li ul{
     display:none;
 }
+.crutchslider{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
 .slider{
     display:flex;
     flex-direction:column;
     justify-content:space-around;
+    align-items:flex-start;
 }
+.infographic{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.infographic-link{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.infographic-link li{
+   margin-right:20px;
+}
+.services{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.slidernavigation{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.slidernavigation form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.sliderservices{
+    flex-direction:column;
+    flex-basis:500px;
+    justify-content:center;
+}
+.advertising{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.advertising ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.advertising li{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-right:20px;
+}
+.crutchaboutcompanyanddispatch{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.aboutcompany{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    flex-basis:500px;
+}
+.dispatch{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    flex-basis:300px;
+}
+.dispatch form{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.infofooter{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.customfooter{
+    flex-basis:50%;
+    display:flex;
+    flex-direction:column;
+}
+.infofooter:first-child{
+    margin-right:50px;
+}
+.servicesandmap{
+    flex-basis:40%;
+    display:flex;
+    flex-direction:column;
+}
+.footeruserinfo{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+}
+.socialnetworkandrights{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.socialnetworkandrights ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.socialnetworkandrights li{
+    margin-right:20px;
+}
+
