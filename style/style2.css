@@ -40,6 +40,11 @@ body{
 .captioncategories li{
     margin-right:20px;
 }
+.crutchcontent{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
 .filter{
     display:flex;
     flex-direction:row;
@@ -54,7 +59,21 @@ body{
     display:flex;
     flex-direction:column;
 }
+.sortingcontent{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.sorting{
+    display:flex;
+    flex-direction:row;
 
+}
+.sorting ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
 
 
 
