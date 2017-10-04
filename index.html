@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style/style.css">
+
 </head>
 
 <body>
@@ -42,28 +43,26 @@
 </header>
 
 <main>
-    <div class="crutchslider">
+        <section class="slider wrapper">
+            <div class="contentslider">
+                <h2>ноутбуки <span>для офиса и дома</span> </h2>
 
-        <section class="slider">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
 
-            <h2>ноутбуки<span>для офиса и дома</span> </h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-
-            <a href="#">Побдробнее</a>
+                <a href="#">Побдробнее</a>
+            </div>
 
             <form action="">
-                <label for=""> <input type="radio"></input> </label>
-                <label for=""> <input type="radio"></input> </label>
-                <label for=""> <input type="radio"></input> </label>
+                <label for="slide1"> <input id="slide1" type="radio"></input> </label>
+                <label for="slide2"> <input id="slide2" type="radio"></input> </label>
+                <label for="slide3"> <input id="slide3" type="radio"></input> </label>
             </form>
 
         </section>
-    </div>
 
     <section class="infographic">
 
-        <ul class="infographic-link">
+        <ul class="infographic-link wrapper">
             <li>  <a href="#"> <h3>моноблоки и ноутбуки</h3> </a></li>
             <li>  <a href="#"> <h3>переферия</h3> </a></li>
             <li>  <a href="#"> <h3>комплектующие</h3> </a></li>
@@ -76,46 +75,43 @@
 
     <section class="services">
 
-        <div class="slidernavigation">
+        <div class="slidernavigation wrapper">
 
-            <form action="">
                 <label for=""> Доставка <input type="radio"> </label>
                 <label for=""> Гарантия <input type="radio"> </label>
                 <label for=""> Кредит <input type="radio"> </label>
-            </form>
 
         </div>
 
-         <div class="sliderservices">
+        <div class="sliderservices">
 
-             <h2>Гарантия</h2>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-             </p>
+            <h2>Гарантия</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            </p>
 
-         </div>
+        </div>
 
-    </section>
+   </section>
 
-    <section class="advertising">
-
+    <section class="advertising wrapper">
         <ul>
-            <li> <a href="#"><img src="" alt="Brend1"></a>  </li>
-            <li> <a href="#"><img src="" alt="Brend2"></a> </li>
-            <li> <a href="#"><img src="" alt="Brend3"></a> </li>
-            <li> <a href="#"><img src="" alt="Brend4"></a> </li>
-            <li> <a href="#"><img src="" alt="Brend5"></a> </li>
-            <li> <a href="#"><img src="" alt="Brend6"></a> </li>
-            <li> <a href="#"><img src="" alt="Brend7"></a> </li>
-            <li> <a href="#"><img src="" alt="Brend8"></a> </li>
+            <li> <a href="#"><img src="images/advertisingbrend1.jpg" alt="Brend1"></a>  </li>
+            <li> <a href="#"><img src="images/advertisingbrend1.jpg" alt="Brend2"></a> </li>
+            <li> <a href="#"><img src="images/advertisingbrend1.jpg" alt="Brend3"></a> </li>
+            <li> <a href="#"><img src="images/advertisingbrend1.jpg" alt="Brend4"></a> </li>
+            <li> <a href="#"><img src="images/advertisingbrend1.jpg" alt="Brend5"></a> </li>
+            <li> <a href="#"><img src="images/advertisingbrend1.jpg" alt="Brend6"></a> </li>
+            <li> <a href="#"><img src="images/advertisingbrend1.jpg" alt="Brend7"></a> </li>
+            <li> <a href="#"><img src="images/advertisingbrend1.jpg" alt="Brend8"></a> </li>
         </ul>
 
     </section>
 
-    <div class="crutchaboutcompanyanddispatch">
+    <div class="crutchaboutcompanyanddispatch wrapper">
 
-        <section class="aboutcompany">
+        <section class="aboutcompany ">
 
-            <h3>Наша компания</h3>
+            <h3>наша компания</h3>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             </p>
@@ -131,33 +127,33 @@
 
         <section class="dispatch">
 
-            <h3>Почтовая рассылка</h3>
+            <h3>почтовая рассылка</h3>
 
             <p>Узнавайте первым о новостях, акциях и скидках интернет-магазина.</p>
 
             <form action="">
-                <input type="email">
+                <input class="dispatchemail" type="email">
 
                 <span>Указанная информация не будет передана третьим лицам. Вы можете отписаться от почтовой рассылки в любое время</span>
 
-                <input type="submit" value="Подписаться">
+                <input class="dispatchsubmit" type="submit" value="Подписаться">
 
             </form>
 
         </section>
     </div>
 
-</main>
+ </main>
 
-<footer>
+ <footer>
 
     <section class="infofooter">
 
-        <div class="customfooter">
+        <div class="customfooter wrapper">
 
             <div class="footeruserinfo">
 
-                <img src="" alt="magnologo">
+                <img src="images/magnologofooter.jpg" alt="magnologo">
                 <span>МОСКВА, ул. СТРОИТЕЛЕЙ, 15 к 1 офис 456</span>
                 <a href="tel:">8-800-5000-616</a>
 
@@ -169,7 +165,7 @@
             </div>
         </div>
 
-        <div class="servicesandmap">
+       <!-- <div class="servicesandmap">
 
             <ul>
                 <li> <a href="#">Доставка</a> </li>
@@ -196,6 +192,6 @@
 
     </section>
 
-</footer>
+ </footer>
 
-</body>
+ </body>
