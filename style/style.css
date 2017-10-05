@@ -441,6 +441,9 @@ a{
 li{
     list-style:none;
 }
+*{
+    font-family:"Century Gothic";
+}
 [hidden] {
     display: none;
 }
@@ -457,7 +460,7 @@ li{
     font-size:21px;
 }
 .usernavigation li:first-child{
-    margin-left:170px;
+    margin-left:120px;
 }
 .usernavigation li:nth-child(2){
     margin-left:70px;
@@ -471,7 +474,7 @@ li{
     list-style:none;
 }
 .sitenavigation li:first-child{
-    margin-left:190px;
+    margin-left:100px;
 }
 .sitenavigation li:nth-child(2){
     margin-left:500px;
@@ -635,15 +638,13 @@ li{
 }
 .infofooter{
     background: #464646;
-    
+
 }
 .footeruserinfo{
-    width:600px;
     text-align:left;
     margin-bottom: 25px;
 }
 .footeruserinfo span{
-    width:150px;
     font-size:15px;
     margin-right: 15px;
 }
@@ -656,4 +657,48 @@ li{
 
 .servicesandmap{
     width:50%;
+}
+.two a{
+    font-size:15px;
+    margin-right:20px;
+}
+.infofooter{
+    display:flex;
+}
+.customfooter{
+    margin-left:70px;
+    flex-basis:30%;
+}
+.servicesandmap li{
+    display:inline-block;
+    font-size:23px;
+    margin-right:40px;
+    margin-top:20px;
+}
+.servicesandmap ul{
+    margin-bottom:20px;
+}
+.socialnetworkandrights{
+    display:flex;
+    justify-content:space-between;
+    background: #3c3c3c;
+}
+.socialnetworkandrights p{
+    margin-left:70px;
+}
+.socialnetworkandrights li{
+    display:inline-block;
+}
+.socialnetworkandrights a::before{
+    content: url("../images/socialnetworkandrightsеtwet.png");
+}
+.socialnetworkandrights p{
+   font-size:14px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.socialnetworkandrights ul{
+    margin-right:70px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
