@@ -602,7 +602,7 @@ li{
     height:2px;
 }
 .services{
-    margin-top:50px;
+    margin-top:70px;
     background: #ff333;
     height:400px;
     display:flex;
@@ -615,12 +615,23 @@ li{
 }
 .slidernavigation label{
     padding:16px 0 16px 100px;
-    border:1px solid #3c3c3c;
+    border:2px solid #3c3c3c;
     margin-bottom:38px;
     color: #3c3c3c;
 }
+.slidernavigation input[type=radio] {
+    display: none;
+}
+.dividinglinevertical{
+    background: #d1d1d1;
+    width:2px;
+    height:300px;
+    margin-right:130px;
+}
 .sliderservices p{
     width:430px;
+    font-size:19px;
+    color: #b5b5b5;
 }
  .sliderservices{
     width:700px;
@@ -629,10 +640,8 @@ li{
 }
 .sliderservices h2{
    font-size:40px;
-    margin-bottom:60px;
-}
-.sliderservices p{
-    font-size:19px;
+   margin-bottom:60px;
+    color: #3c3c3c;
 }
 .advertising ul{
     display:flex;
@@ -640,6 +649,7 @@ li{
 }
 .advertising{
     margin-bottom:90px;
+    margin-top:50px;
 }
 .crutchaboutcompanyanddispatch{
     display:flex;
