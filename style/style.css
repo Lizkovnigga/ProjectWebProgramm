@@ -666,21 +666,32 @@ li{
     width:550px;
     font-size:20px;
     margin-bottom:30px;
+    color: #8c8c8c;
 }
 .aboutcompany h3{
     font-size:28px;
-    margin-bottom:70px;
+    margin-bottom:25px;
+    color: #3c3c3c;
 }
 .aboutcompany li{
     font-size:16px;
     margin-bottom:10px;
     list-style: circle;
+    color: #8c8c8c;
 }
 .aboutcompany ul{
     margin-bottom:20px;
 }
 .aboutcompany a{
     font-size:20px;
+    color:black;
+    font-weight:bold;
+}
+.dividinglineaboutcompany{
+    width:100px;
+    height:8px;
+    background: #e9b637;
+    margin-bottom:25px;
 }
 .dispatch{
     background: #3c3c3c;
@@ -688,24 +699,37 @@ li{
 }
 .dispatch h3{
     font-size:28px;
-    margin-bottom:70px;
+    margin-bottom:25px;
+    color: white;
 }
 .dispatch p{
     font-size:20px;
     margin-bottom:30px;
-}
-.dispatchemail{
-    line-height: 48px;
-    width:100%;
-    margin-bottom:20px;
-}
-.dispatchsubmit{
-    line-height: 48px;
-    margin-top:50px;
-    width:100%;
+    color: white;
 }
 .dispatch span{
     font-size: 15px;
+    color: #5d5d5d;
+}
+.dispatch input[type="email"]{
+    line-height: 48px;
+    width:100%;
+    margin-bottom:20px;
+    color: #a2a2a2;
+    padding-left:15px;
+    font-family: "Century Gothic";
+    background: #515151;
+    border:1px solid #a2a2a2;
+}
+.dispatch input[type="submit"]{
+    line-height: 48px;
+    margin-top:50px;
+    width:100%;
+    background: #e9b637;
+    border:0px;
+    font-size:25px;
+    color:#3c3c3c;
+    padding:10px 0 10px 0;
 }
 .infofooter{
     background: #464646;
