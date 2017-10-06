@@ -739,12 +739,16 @@ li{
     text-align:left;
     margin-bottom: 25px;
 }
-.footeruserinfo span{
+.footeruserinfo p{
     font-size:15px;
     margin-right: 15px;
+    width:240px;
+    color: #a6a6a6;
 }
 .footeruserinfo a{
-     font-size:32px;
+    font-size:32px;
+    width:200px;
+    color:white;
  }
 .footeruserinfo img{
     margin-bottom: 35px;
@@ -753,9 +757,18 @@ li{
 .servicesandmap{
     width:50%;
 }
-.two a{
-    font-size:15px;
-    margin-right:20px;
+
+.usernavigationprivate2 , .usernavigationbacket2{
+    color:white;
+    font-size:14px;
+}
+.usernavigationprivate2::before{
+    content: url("../images/usernavigationprivate.jpg");
+    padding:10px;
+}
+.usernavigationbacket2::before{
+    content: url("../images/usernavigationbacket.jpg");
+    padding:10px;
 }
 .infofooter{
     display:flex;
@@ -766,9 +779,13 @@ li{
 }
 .servicesandmap li{
     display:inline-block;
-    font-size:23px;
     margin-right:40px;
     margin-top:20px;
+}
+.servicesandmap a{
+    font-weight: bold;
+    color:white;
+    font-size:20px;
 }
 .servicesandmap ul{
     margin-bottom:20px;
@@ -778,9 +795,6 @@ li{
     justify-content:space-between;
     background: #3c3c3c;
 }
-.socialnetworkandrights p{
-    margin-left:70px;
-}
 .socialnetworkandrights li{
     display:inline-block;
 }
@@ -788,6 +802,8 @@ li{
     content: url("../images/socialnetworkandrightsеtwet.png");
 }
 .socialnetworkandrights p{
+    margin-left:70px;
+    color:white;
    font-size:14px;
     margin-top:10px;
     margin-bottom:10px;
