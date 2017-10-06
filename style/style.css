@@ -450,20 +450,46 @@ li{
 .one {
     background: #3c3c3c;
 }
+.usernavigationtel{
+    color: #e9b637;
+    font-weight:bold;
+}
+.usernavigationtel::before{
+    content: url("../images/usernavigationtel.png");
+    margin-right:10px;
+}
+.usernavigationsearch input{
+    color: #737373;
+    font-size:14px;
+    padding:5px;
+    font-family: "Century Gothic";
+    border:1px solid white;
+    background: url("../images/usernavigationsearch.png") #3c3c3c no-repeat right center;
+}
+
 .usernavigation li{
     display: inline-block;
     vertical-align: middle;
     margin-right:50px;
     list-style:none;
 }
-.usernavigation a{
-    font-size:21px;
+.usernavigationprivate , .usernavigationbacket{
+    color:white;
+    font-size:14px;
+}
+.usernavigationprivate::before{
+    content: url("../images/usernavigationprivate.jpg");
+    padding:10px;
+}
+.usernavigationbacket::before{
+    content: url("../images/usernavigationbacket.jpg");
+    padding:10px;
 }
 .usernavigation li:first-child{
-    margin-left:120px;
+    margin-left:100px;
 }
 .usernavigation li:nth-child(2){
-    margin-left:70px;
+    margin-left:80px;
 }
 .sitenavigation{
     background: #f0f0f0;
@@ -487,7 +513,9 @@ li{
     display: none;
 }
 .sitenavigation a{
+    color: #3c3c3c;
     font-size:22px;
+    font-weight:bold;
 }
 .wrapper{
     width:1200px;
@@ -500,7 +528,7 @@ li{
     width:1160px;
     padding-top:150px;
     box-shadow:1px 1px 8px 0px rgba(50, 50, 50, 0.75);
-    margin-bottom:100px;
+    margin-bottom:50px;
 }
 .contentslider{
     width:420px;
@@ -510,16 +538,26 @@ li{
 .contentslider p{
     font-size:17px;
     margin-bottom:25px;
+    margin-top:25px;
 }
 .contentslider h2{
     font-size:46px;
-    margin-bottom:25px;
+    color: #f0f0f0;
+    width:200px;
 }
-.contentslider h2 span{
+.contentslider span{
     font-size:38px;
+    color: #3c3c3c;
+    width:300px;
+    font-weight:bold;
 }
 .contentslider a{
     font-size:16px;
+    border:1px solid white;
+    padding:10px 35px 10px 35px;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
 }
 .slider form{
    margin-left:500px;
@@ -541,6 +579,12 @@ li{
 }
 .infographic{
     margin-bottom:48px;
+    margin-top:50px;
+}
+.dividingline{
+    background: #d1d1d1;
+    width:100%;
+    height:3px;
 }
 .services{
     background: #ff333;
