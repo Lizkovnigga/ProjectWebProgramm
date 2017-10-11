@@ -2,27 +2,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style/style2.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
 <header>
 
     <nav>
-        <ul class="usernavigation">
+        <ul class="usernavigation one">
             <li> <img src="images/magnologo.jpg" alt="magnologo"> </li>
-            <li> <a href="tel:">+ 7 900 000 00 00</a> </li>
+            <li> <a class="usernavigationtel" href="tel:">+ 7 900 000 00 00</a> </li>
             <li>
-                <form action="">
+                <form class="usernavigationsearch" action="">
                     <input type="search" value="Поиск по сайту">
                 </form>
             </li>
-            <li><a href="#">Личный кабинет</a></li>
-            <li><a href="#">Корзина</a></li>
+            <li><a class="usernavigationprivate" href="#">Личный кабинет</a></li>
+            <li><a class="usernavigationbacket" href="#">Корзина</a></li>
         </ul>
 
         <ul class="sitenavigation">
-            <li><a href="#">Все категории</a>
+            <li class="sitenavigationdropdownmenu"><a href="#">Все категории</a>
                 <ul>
                     <li><a href="#">Роутеры</a></li>
                     <li><a href="#">Игровые симуляторы</a></li>
@@ -42,7 +42,7 @@
 
 <main>
 
-    <section class="captioncategories">
+    <section class="captioncategories wrapper">
 
         <ul>
             <li><a href="#">Главная</a></li>
@@ -50,172 +50,180 @@
             <li><a href="#">Моноблоки и ноутбуки</a></li>
         </ul>
 
+
+    </section>
+
+    <div class="dividingline"></div>
+
+    <div class="titlecontent wrapper">
         <h2>Моноблоки и ноутбуки</h2>
+    </div>
 
-    </section>
 
-<div class="crutchcontent">
-    <section class="filter">
 
-        <h3>Фильтр</h3>
+    <!--
+    <div class="crutchcontent">
+        <section class="filter">
 
-        <form action="">
-            <fieldset class="thecost">
-                <legend>Стоимость</legend>
-            </fieldset>
+            <h3>Фильтр</h3>
 
-            <fieldset class="manufacturers">
-                <legend>Производители</legend>
+            <form action="">
+                <fieldset class="thecost">
+                    <legend>Стоимость</legend>
+                </fieldset>
 
-                <label>Lenovo<input type="checkbox"></label>
-                <label>Phillips<input type="checkbox"></label>
-                <label>Acer<input type="checkbox"></label>
-                <label>HP<input type="checkbox"></label>
-            </fieldset>
+                <fieldset class="manufacturers">
+                    <legend>Производители</legend>
 
-            <fieldset class="videocard">
-                <legend>Видеокарта</legend>
+                    <label>Lenovo<input type="checkbox"></label>
+                    <label>Phillips<input type="checkbox"></label>
+                    <label>Acer<input type="checkbox"></label>
+                    <label>HP<input type="checkbox"></label>
+                </fieldset>
 
-                <label>NVidia<input type="radio"></label>
-                <label>AMD<input type="radio"></label>
-                <label>Встроенная<input type="radio"></label>
-            </fieldset>
+                <fieldset class="videocard">
+                    <legend>Видеокарта</legend>
 
-            <input type="submit" value="Применить">
-            <input type="reset" value="Сбросить фильтр">
-        </form>
+                    <label>NVidia<input type="radio"></label>
+                    <label>AMD<input type="radio"></label>
+                    <label>Встроенная<input type="radio"></label>
+                </fieldset>
 
-    </section>
+                <input type="submit" value="Применить">
+                <input type="reset" value="Сбросить фильтр">
+            </form>
 
-    <section class="sortingcontent">
+        </section>
 
-        <div class="sorting">
-            <h3>Сортировка</h3>
+        <section class="sortingcontent">
+
+            <div class="sorting">
+                <h3>Сортировка</h3>
+
+                <ul>
+                    <li><a href="#">По цене</a></li>
+                    <li><a href="#">По типу</a></li>
+                    <li><a href="#">По популярности</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+
+                <div clas="laptop">
+
+                    <span>В наличии</span>
+                    <img src="" alt="laptopacer">
+                    <h3>Ноутбук ACER</h3>
+                    <a href="#">-</a> <span>1</span> <a href="#">+</a>
+                    <a href="#">В корзину</a>
+                    <p><span>11020</span>руб</p>
+
+                </div>
+
+                <div clas="laptop">
+
+                    <span>В наличии</span>
+                    <img src="" alt="laptopacer">
+                    <h3>Ноутбук ACER</h3>
+                    <a href="#">-</a> <span>1</span> <a href="#">+</a>
+                    <a href="#">В корзину</a>
+                    <p><span>11020</span>руб</p>
+
+                </div>
+
+                <div clas="laptop">
+
+                    <span>В наличии</span>
+                    <img src="" alt="laptopacer">
+                    <h3>Ноутбук ACER</h3>
+                    <a href="#">-</a> <span>1</span> <a href="#">+</a>
+                    <a href="#">В корзину</a>
+                    <p><span>11020</span>руб</p>
+
+                </div>
+
+                <div clas="laptop">
+
+                    <span>В наличии</span>
+                    <img src="" alt="laptopacer">
+                    <h3>Ноутбук ACER</h3>
+                    <a href="#">-</a> <span>1</span> <a href="#">+</a>
+                    <a href="#">В корзину</a>
+                    <p><span>11020</span>руб</p>
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+
+
+        <section class="pagination">
 
             <ul>
-                <li><a href="#">По цене</a></li>
-                <li><a href="#">По типу</a></li>
-                <li><a href="#">По популярности</a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </div>
-
-        <div class="content">
-
-            <div clas="laptop">
-
-                <span>В наличии</span>
-                <img src="" alt="laptopacer">
-                <h3>Ноутбук ACER</h3>
-                <a href="#">-</a> <span>1</span> <a href="#">+</a>
-                <a href="#">В корзину</a>
-                <p><span>11020</span>руб</p>
-
-            </div>
-
-            <div clas="laptop">
-
-                <span>В наличии</span>
-                <img src="" alt="laptopacer">
-                <h3>Ноутбук ACER</h3>
-                <a href="#">-</a> <span>1</span> <a href="#">+</a>
-                <a href="#">В корзину</a>
-                <p><span>11020</span>руб</p>
-
-            </div>
-
-            <div clas="laptop">
-
-                <span>В наличии</span>
-                <img src="" alt="laptopacer">
-                <h3>Ноутбук ACER</h3>
-                <a href="#">-</a> <span>1</span> <a href="#">+</a>
-                <a href="#">В корзину</a>
-                <p><span>11020</span>руб</p>
-
-            </div>
-
-            <div clas="laptop">
-
-                <span>В наличии</span>
-                <img src="" alt="laptopacer">
-                <h3>Ноутбук ACER</h3>
-                <a href="#">-</a> <span>1</span> <a href="#">+</a>
-                <a href="#">В корзину</a>
-                <p><span>11020</span>руб</p>
-
-            </div>
-
-        </div>
-
-    </section>
-</div>
-
-
-
-
-    <section class="pagination">
-
-        <ul>
-            <li><a href="#">Предыдущая</a></li>
-            <li><a href="#">Следующая</a></li>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-        </ul>
-
-    </section>
-
-</main>
-
-<footer>
-
-    <section class="infofooter">
-
-        <div class="customfooter">
-
-            <div class="footeruserinfo">
-
-                <img src="" alt="magnologo">
-                <span>МОСКВА, ул. СТРОИТЕЛЕЙ, 15 к 1 офис 456</span>
-                <a href="tel:">8-800-5000-616</a>
-
-            </div>
-
-            <div class="usernavigation">
-                <a href="#">Личный кабинет</a>
-                <a href="#">Корзина</a>
-            </div>
-        </div>
-
-        <div class="servicesandmap">
-
-            <ul>
-                <li> <a href="#">Доставка</a> </li>
-                <li> <a href="#">Гарантия</a> </li>
-                <li> <a href="#">Контакты</a> </li>
+                <li><a href="#">Предыдущая</a></li>
+                <li><a href="#">Следующая</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
             </ul>
 
-            <img src="" alt="map">
+        </section>
 
-        </div>
+    </main>
 
-        <div class="socialnetworkandrights">
+    <footer>
 
-            <p>Все права защищены 2017</p>
+        <section class="infofooter">
 
-            <ul>
-                <li><a href="#"><img src="" alt="vk"></a></li>
-                <li><a href="#"><img src="" alt="facebook"></a></li>
-                <li><a href="#"><img src="" alt="mail"></a></li>
-                <li><a href="#"><img src="" alt="twitter"></a></li>
-            </ul>
+            <div class="customfooter">
 
-        </div>
+                <div class="footeruserinfo">
 
-    </section>
+                    <img src="" alt="magnologo">
+                    <span>МОСКВА, ул. СТРОИТЕЛЕЙ, 15 к 1 офис 456</span>
+                    <a href="tel:">8-800-5000-616</a>
 
-</footer>
+                </div>
 
-</body>
+                <div class="usernavigation">
+                    <a href="#">Личный кабинет</a>
+                    <a href="#">Корзина</a>
+                </div>
+            </div>
+
+            <div class="servicesandmap">
+
+                <ul>
+                    <li> <a href="#">Доставка</a> </li>
+                    <li> <a href="#">Гарантия</a> </li>
+                    <li> <a href="#">Контакты</a> </li>
+                </ul>
+
+                <img src="" alt="map">
+
+            </div>
+
+            <div class="socialnetworkandrights">
+
+                <p>Все права защищены 2017</p>
+
+                <ul>
+                    <li><a href="#"><img src="" alt="vk"></a></li>
+                    <li><a href="#"><img src="" alt="facebook"></a></li>
+                    <li><a href="#"><img src="" alt="mail"></a></li>
+                    <li><a href="#"><img src="" alt="twitter"></a></li>
+                </ul>
+
+            </div>
+
+        </section>
+
+    </footer>
+
+    </body>
