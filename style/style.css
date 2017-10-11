@@ -842,7 +842,61 @@ li{
     margin-top:20px;
     color: #3c3c3c;
     font-size: 25px;
+    margin-bottom: 40px;
 }
 .sitenavigationdropdownmenu::after{
     content: url("../images/sitenavigationdropdownmenu.jpg");
+}
+.filter{
+    width:350px;
+}
+.filter h3{
+    font-size: 27px;
+    color:white;
+    background: #3c3c3c;
+    padding: 20px;
+}
+.filter form{
+    background: #606060;
+    padding:25px;
+}
+.filter fieldset{
+    border:0;
+    color:#e9b637;
+    font-size:15px;
+    width:260px;
+    margin-bottom:20px;
+}
+.filter legend{
+    color:white;
+    font-size:20px;
+    margin-bottom:10px;
+}
+.filter label{
+    margin-right:30px;
+}
+
+.filter input{
+    margin-left:20px;
+    margin-top:10px;
+}
+.filter input[type="submit"]{
+    width:90%;
+    height:50px;
+    background: #e9b637;
+    border:0;
+    color: #3c3c3c;
+}
+.filter input[type="reset"]{
+    width:90%;
+    background: #606060;
+    border:0;
+    color: #b5b5b5;
+}
+.dividinglinefieldset{
+    width:350px;
+    background: #4d4d4d;
+    height: 2px;
+    margin-left:-25px;
+    margin-bottom:10px;
 }
