@@ -548,6 +548,16 @@ li{
     color: #f0f0f0;
     width:200px;
 }
+.slide2 h2{
+    font-size:46px;
+    color: #f0f0f0;
+    width:400px;
+}
+.slide3 h2{
+    font-size:46px;
+    color: #f0f0f0;
+    width:600px;
+}
 .contentslider span{
     font-size:38px;
     color: #3c3c3c;
@@ -575,7 +585,6 @@ li{
 }
 .slider label:first-child{
     margin-left: 500px;
-    margin-top:30px;
 }
 .slides{
     display: flex;
