@@ -596,6 +596,7 @@ li{
     border-radius: 20px;
     width:15px;
     height:15px;
+    margin-top:-50px;
 }
 .slider label:first-child{
     margin-left: 500px;
@@ -605,11 +606,16 @@ li{
     width:1200px;
     overflow:hidden;
 }
+.slidesservices{
+    display: flex;
+    width:700px;
+    overflow:hidden;
+}
 .slider input[type="radio"]:checked+.contentslider{
     order:1;
 }
-.slider input[type="radio"]:checked+.contentslider{
-
+.services input[type="radio"]:checked+.sliderservices{
+    order:1;
 }
 .infographic-link{
      display:flex;
@@ -671,6 +677,9 @@ li{
 .slidernavigation input[type=radio] {
     display: none;
 }
+.services input[type=radio] {
+    display: none;
+}
 .dividinglinevertical{
     background: #d1d1d1;
     width:2px;
@@ -686,6 +695,8 @@ li{
     width:700px;
     background: url("../images/sliderservicesgaran.jpg");
     background-repeat: no-repeat;
+    flex-shrink: 0;
+    order:2;
 }
 .sliderservices h2{
    font-size:40px;
