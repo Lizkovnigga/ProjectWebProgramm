@@ -512,6 +512,28 @@ li{
 .sitenavigation li ul{
     display: none;
 }
+.sitenavigation li:hover ul {
+    display: inline-block;
+}
+.sitenavigation li ul li{
+    margin-left:10px;
+    margin-right:10px;
+}
+.sitenavigation li ul li:first-child{
+    margin-left:10px;
+    margin-right:10px;
+}
+.sitenavigation li ul li:nth-child(2){
+    margin-left:10px;
+    margin-right:10px;
+}
+.sitenavigation li ul li:nth-child(3){
+    margin-right:500px;
+}
+.sitenavigation li ul li:nth-child(5){
+    margin-right:600px;
+}
+
 .sitenavigation a{
     color: #3c3c3c;
     font-size:22px;
