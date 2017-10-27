@@ -448,7 +448,11 @@ li{
     display: none;
 }
 .one {
-    background: #3c3c3c;
+
+}
+.wrapper2{
+    width:100%;
+    margin:0 auto;
 }
 .usernavigationtel{
     color: #e9b637;
@@ -492,7 +496,7 @@ li{
     margin-left:80px;
 }
 .sitenavigation{
-    background: #f0f0f0;
+
 }
 .sitenavigation li{
     display: inline-block;
@@ -542,6 +546,12 @@ li{
 .wrapper{
     width:1200px;
     margin:0 auto;
+}
+.color1{
+    background: red;
+}
+.color2{
+    background: grey;
 }
 .slider{
     height:465px;
@@ -609,9 +619,7 @@ li{
     font-weight: bold;
 }
 .slider label{
-     display: inline-block;
-}
-.slider label:after{
+    display: inline-block;
     border: 2px solid white;
     content: " ";
     display: block;
@@ -619,11 +627,17 @@ li{
     width:15px;
     height:15px;
     margin-top:-50px;
+    margin-right:10px;
 }
-.slider label:first-child{
-    margin-left: 500px;
+.control{
+    position: absolute;
+    top:95%;
+    left:40%;
+    display: flex;
 }
+
 .slides{
+    position: relative;
     display: flex;
     width:1200px;
     overflow:hidden;
@@ -636,8 +650,13 @@ li{
 .slider input[type="radio"]:checked+.contentslider{
     order:1;
 }
-.services input[type="radio"]:checked+.sliderservices{
+.slidesservices input[type="radio"]:checked+.sliderservices{
     order:1;
+}
+.slider #slide1:checked~.control [for="slide1"],
+.slider #slide2:checked~.control [for="slide2"],
+.slider #slide3:checked~.control [for="slide3"]{
+    background: white;
 }
 .infographic-link{
      display:flex;

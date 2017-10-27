@@ -11,33 +11,37 @@
 <header>
 
     <nav>
-        <ul class="usernavigation one">
-            <li> <img src="images/magnologo.jpg" alt="magnologo"> </li>
-            <li> <a class="usernavigationtel" href="tel:">+ 7 900 000 00 00</a> </li>
-            <li>
-                <form class="usernavigationsearch" action="">
-                    <input type="search" value="Поиск по сайту">
-                </form>
-            </li>
-            <li><a class="usernavigationprivate" href="#">Личный кабинет</a></li>
-            <li><a class="usernavigationbacket" href="#">Корзина</a></li>
-        </ul>
+        <div class="color1">
+            <ul class="usernavigation wrappper">
+                <li> <img src="images/magnologo.jpg" alt="magnologo"> </li>
+                <li> <a class="usernavigationtel" href="tel:">+ 7 900 000 00 00</a> </li>
+                <li>
+                    <form class="usernavigationsearch" action="">
+                        <input type="search" value="Поиск по сайту">
+                    </form>
+                </li>
+                <li><a class="usernavigationprivate" href="#">Личный кабинет</a></li>
+                <li><a class="usernavigationbacket" href="#">Корзина</a></li>
+            </ul>
+        </div>
 
-        <ul class="sitenavigation">
-            <li class="sitenavigationdropdownmenu"><a href="#">Все категории</a>
-                <ul>
-                    <li><a href="#">Роутеры</a></li>
-                    <li><a href="#">Игровые симуляторы</a></li>
-                    <li><a href="#">Комплектующие</a></li>
-                    <li><a href="#">Перефирия</a></li>
-                    <li><a href="#">Настольные лампы</a></li>
-                    <li><a href="#">Моноблоки и ноутубки</a></li>
-                </ul>
-            </li>
-            <li> <a href="#">Доставка</a> </li>
-            <li> <a href="#">Гарантия</a> </li>
-            <li> <a href="#">Контакты</a> </li>
-        </ul>
+        <div class="color2">
+            <ul class="sitenavigation wrapper">
+                <li class="sitenavigationdropdownmenu"><a href="#">Все категории</a>
+                    <ul>
+                        <li><a href="#">Роутеры</a></li>
+                        <li><a href="#">Игровые симуляторы</a></li>
+                        <li><a href="#">Комплектующие</a></li>
+                        <li><a href="#">Перефирия</a></li>
+                        <li><a href="#">Настольные лампы</a></li>
+                        <li><a href="#">Моноблоки и ноутубки</a></li>
+                    </ul>
+                </li>
+                <li> <a href="#">Доставка</a> </li>
+                <li> <a href="#">Гарантия</a> </li>
+                <li> <a href="#">Контакты</a> </li>
+            </ul>
+        </div>
     </nav>
 
 </header>
@@ -46,7 +50,7 @@
         <section class="slider wrapper">
 
             <div class="slides">
-                <input name="contentslider" id="slide1" type="radio">
+                <input name="contentslider" id="slide1" type="radio" checked>
                 <div class="contentslider slide1">
                     <h2>ноутбуки</h2> <span>для офиса и дома</span>
 
@@ -70,13 +74,14 @@
 
                     <a href="#">Побдробнее</a>
                 </div>
+                <div class="control">
+                    <label for="slide1"></label>
+                    <label  for="slide2"></label>
+                    <label  for="slide3"></label>
+                </div>
             </div>
 
-            <div class="control">
-                <label for="slide1"></label>
-                <label  for="slide2"></label>
-                <label  for="slide3"></label>
-            </div>
+
 
         </section>
 
@@ -114,7 +119,7 @@
         <input name="sliderservices" id="slides1" type="radio">
         <div class="sliderservices slides1">
 
-            <h2>Гарантия</h2>
+            <h2>Доставка</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             </p>
 
@@ -123,7 +128,7 @@
         <input name="sliderservices" id="slides2" type="radio">
         <div class="sliderservices slides2">
 
-            <h2>Кредит</h2>
+            <h2>Гарантия</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             </p>
 
@@ -132,7 +137,7 @@
         <input name="sliderservices" id="slides3" type="radio">
         <div class="sliderservices slides3">
 
-            <h2>Доставка</h2>
+            <h2>Кредит</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             </p>
 
