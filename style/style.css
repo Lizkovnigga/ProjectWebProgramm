@@ -14,6 +14,9 @@ html {
 
 body {
     margin: 0;
+    width: 100%;
+    min-width: 1300px;
+    max-width: 1920px;
 }
 
 /**
@@ -447,12 +450,13 @@ li{
 [hidden] {
     display: none;
 }
-.one {
 
+/*header*/
+.colorheader1 {
+    background: #3c3c3c;
 }
-.wrapper2{
-    width:100%;
-    margin:0 auto;
+.colorheader2 {
+    background: #f0f0f0;
 }
 .usernavigationtel{
     color: #e9b637;
@@ -495,9 +499,7 @@ li{
 .usernavigation li:nth-child(2){
     margin-left:80px;
 }
-.sitenavigation{
 
-}
 .sitenavigation li{
     display: inline-block;
     vertical-align: middle;
@@ -507,7 +509,7 @@ li{
     margin-left:100px;
 }
 .sitenavigation li:nth-child(2){
-    margin-left:500px;
+    margin-left:420px;
 }
 .sitenavigation li{
     margin-right:50px;
@@ -537,22 +539,23 @@ li{
 .sitenavigation li ul li:nth-child(5){
     margin-right:600px;
 }
-
 .sitenavigation a{
     color: #3c3c3c;
     font-size:22px;
     font-weight:bold;
 }
+
+/*wrapper*/
 .wrapper{
     width:1200px;
     margin:0 auto;
 }
-.color1{
-    background: red;
+.wrapper2{
+    width:1300px;
+    margin:0 auto;
 }
-.color2{
-    background: grey;
-}
+
+/*слайдер1*/
 .slider{
     height:465px;
     width:1160px;
@@ -590,7 +593,6 @@ li{
     width:200px;
     margin-top:100px;
 }
-
 .slide2 h2{
     font-size:46px;
     color: #f0f0f0;
@@ -635,7 +637,6 @@ li{
     left:40%;
     display: flex;
 }
-
 .slides{
     position: relative;
     display: flex;
@@ -650,14 +651,13 @@ li{
 .slider input[type="radio"]:checked+.contentslider{
     order:1;
 }
-.slidesservices input[type="radio"]:checked+.sliderservices{
-    order:1;
-}
 .slider #slide1:checked~.control [for="slide1"],
 .slider #slide2:checked~.control [for="slide2"],
 .slider #slide3:checked~.control [for="slide3"]{
     background: white;
 }
+
+/*товары*/
 .infographic-link{
      display:flex;
      justify-content: space-around;
@@ -697,6 +697,8 @@ li{
     width:100%;
     height:2px;
 }
+
+/*сервисы*/
 .services{
     margin-top:70px;
     background: #ff333;
@@ -718,8 +720,8 @@ li{
 .slidernavigation input[type=radio] {
     display: none;
 }
-.services input[type=radio] {
-    display: none;
+.slidesservices input[type="radio"]:checked+.sliderservices{
+    order:1;
 }
 .dividinglinevertical{
     background: #d1d1d1;
