@@ -467,12 +467,22 @@ li{
     margin-right:10px;
 }
 .usernavigationsearch input{
-    color: #737373;
+    color: black;
     font-size:14px;
     padding:5px;
     font-family: "Century Gothic";
     border:1px solid white;
-    background: url("../images/usernavigationsearch.png") #3c3c3c no-repeat right center;
+    background:#3c3c3c;
+}
+.usernavigationsearch input::after{
+    content: url("../images/usernavigationsearchhover.png");
+}
+
+.usernavigationsearch input:hover::placeholder{
+    color:white;
+}
+.usernavigationsearch input::placeholder{
+    color:#737373;
 }
 
 .usernavigation li{
@@ -489,6 +499,24 @@ li{
     content: url("../images/usernavigationprivate.jpg");
     padding:10px;
 }
+.usernavigationprivate:hover{
+    color:#e9b637;
+}
+.usernavigationprivate:active{
+    color:#989898;
+}
+.usernavigationbacket:active{
+    color:#989898;
+}
+.usernavigationprivate:hover::before{
+    content: url("../images/usernavigationprivatehover.png");
+}
+.usernavigationprivate:active::before{
+    content: url("../images/usernavigationprivateactiver.png");
+}
+.usernavigationbacket:active::before{
+    content: url("../images/usernavigationbacketfactive.png");
+}
 .usernavigationbacket::before{
     content: url("../images/usernavigationbacket.jpg");
     padding:10px;
@@ -504,6 +532,12 @@ li{
     display: inline-block;
     vertical-align: middle;
     list-style:none;
+}
+.sitenavigation a:hover{
+    color:#e9b637;
+}
+.sitenavigation a:active{
+    color:#989898;
 }
 .sitenavigation li:first-child{
     margin-left:100px;
@@ -522,22 +556,7 @@ li{
     display: inline-block;
 }
 .sitenavigation li ul li{
-    margin-left:10px;
     margin-right:10px;
-}
-.sitenavigation li ul li:first-child{
-    margin-left:10px;
-    margin-right:10px;
-}
-.sitenavigation li ul li:nth-child(2){
-    margin-left:10px;
-    margin-right:10px;
-}
-.sitenavigation li ul li:nth-child(3){
-    margin-right:500px;
-}
-.sitenavigation li ul li:nth-child(5){
-    margin-right:600px;
 }
 .sitenavigation a{
     color: #3c3c3c;
@@ -670,14 +689,23 @@ li{
     font-size:21px;
     color: #3c3c3c;
 }
-.infographic-link li:first-child::before{
+.infographic-link .monoblock::before{
     content: url("../images/infgrpmonob.jpg")
 }
-.infographic-link li:nth-child(2)::before{
+.infographic-link .monoblock:hover::before{
+    content: url("../images/infgrpmonobhover.jpg");
+}
+.infographic-link .peref::before{
     content: url("../images/infgrpperef.jpg")
 }
-.infographic-link li:nth-child(3)::before{
+.infographic-link .peref:hover::before{
+    content: url("../images/infgrpperefhover.jpg")
+}
+.infographic-link .components::before{
     content: url("../images/infgrpcomponents.jpg")
+}
+.infographic-link .components:hover::before{
+    content: url("../images/infgrpcomponentshover.jpg")
 }
 .infographic-link li:nth-child(4)::before{
     content: url("../images/infgrproutersf.jpg")
