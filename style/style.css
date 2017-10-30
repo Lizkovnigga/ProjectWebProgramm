@@ -639,6 +639,13 @@ li{
     color:white;
     font-weight: bold;
 }
+.contentslider a:hover{
+    background: white;
+    color:#3c3c3c;
+}
+.contentslider a:active{
+    opacity: 0.5;
+}
 .slider label{
     display: inline-block;
     border: 2px solid white;
@@ -760,6 +767,13 @@ li{
     margin-bottom:38px;
     color: #3c3c3c;
 }
+.slidernavigation label:hover{
+    color: #e9b637;
+    background: #3c3c3c;
+}
+.slidernavigation label:active{
+    opacity: 0.5;
+}
 .slidernavigation input[type=radio] {
     display: none;
 }
@@ -796,6 +810,9 @@ li{
 .advertising{
     margin-bottom:90px;
     margin-top:50px;
+}
+.advertising li:hover{
+   opacity: 0.5;
 }
 .crutchaboutcompanyanddispatch{
     display:flex;
@@ -866,6 +883,12 @@ li{
     font-family: "Century Gothic";
     background: #515151;
     border:1px solid #a2a2a2;
+}
+.dispatch input[type="email"]:hover{
+    color:white;
+}
+.dispatch input[type="email"]:active{
+    color:#eec348;
 }
 .dispatch input[type="submit"]{
     line-height: 48px;
