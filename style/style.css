@@ -689,6 +689,12 @@ li{
     font-size:21px;
     color: #3c3c3c;
 }
+.infographic-link a:active{
+    opacity: 0.5;
+}
+.infographic-link a:active h3{
+    opacity: 0.5;
+}
 .infographic-link .monoblock::before{
     content: url("../images/infgrpmonob.jpg")
 }
@@ -707,14 +713,23 @@ li{
 .infographic-link .components:hover::before{
     content: url("../images/infgrpcomponentshover.jpg")
 }
-.infographic-link li:nth-child(4)::before{
+.infographic-link .routers::before{
     content: url("../images/infgrproutersf.jpg")
 }
-.infographic-link li:nth-child(5)::before{
+.infographic-link .routers:hover::before{
+    content: url("../images/infgrproutersfhover.jpg")
+}
+.infographic-link .lamp::before{
     content: url("../images/infgrplamp.jpg")
 }
-.infographic-link li:nth-child(6)::before{
+.infographic-link .lamp:hover::before{
+    content: url("../images/infgrplamphover.jpg")
+}
+.infographic-link .game::before{
     content: url("../images/infgrpgame.jpg")
+}
+.infographic-link .game:hover::before{
+    content: url("../images/infgrpgamehover.jpg")
 }
 .infographic{
     margin-bottom:48px;
