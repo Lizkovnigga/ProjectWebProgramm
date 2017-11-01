@@ -563,6 +563,18 @@ li{
     top:12%;
     left:82.3%;
 }
+.sitenavigation li:hover ul li:first-child{
+     margin-left: 0;
+ }
+.sitenavigation li:hover ul li:nth-child(2){
+    margin-left: 0;
+}
+.sitenavigation li:hover ul li:nth-child(3){
+    margin-right: 500px;
+}
+.sitenavigation li:hover ul li:nth-child(5){
+    margin-right: 600px;
+}
 .sitenavigation li ul li{
     margin-right:10px;
 }
@@ -1103,6 +1115,12 @@ li{
 }
 .sitenavigationdropdownmenu::after{
     content: url("../images/sitenavigationdropdownmenu.jpg");
+}
+.sitenavigationdropdownmenu:hover::after{
+    content: url("../images/sitenavigationdropdownmenu.jpg");
+    position: absolute;
+    top:12.4%;
+    left:21.65%;
 }
 .filter{
     width:350px;
