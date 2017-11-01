@@ -3,7 +3,6 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style/style.css">
-
 </head>
 
 <body>
@@ -20,7 +19,7 @@
                         <input type="search" placeholder="Поиск по сайту">
                     </form>
                 </li>
-                <li><a class="usernavigationprivate" href="#" onclick="ChangeStyle()">Личный кабинет</a></li>
+                <li><a class="usernavigationprivate" href="#" onclick="showModalWin()"">Личный кабинет</a></li>
                 <li><a class="usernavigationbacket" href="#">Корзина</a></li>
             </ul>
         </div>
@@ -43,6 +42,16 @@
             </ul>
         </div>
     </nav>
+    <div style="text-align: center" id="popupWin" class="modalwin">
+        <h2> ЛИЧНЫЙ КАБИНЕТ </h2>
+        <p>ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И ПАРОЛЬ</p>
+        <form>
+            <input type="text" value="ЛОГИН">
+            <input type="text" value="ПАРОЛЬ">
+            <input type="checkbox" checked> <p>ЗАПОМНИТЕ МЕНЯ</p>
+        </form>
+        <hr>
+    </div>
 
 </header>
 
@@ -255,4 +264,5 @@
 
  </footer>
 
+<script src="javascript/index.js"></script>
  </body>
