@@ -474,17 +474,9 @@ li{
     border:1px solid white;
     background:#3c3c3c;
 }
-.usernavigationsearch input::after{
-    content: url("../images/usernavigationsearchhover.png");
-}
-
 .usernavigationsearch input:hover::placeholder{
     color:white;
 }
-.usernavigationsearch input::placeholder{
-    color:#737373;
-}
-
 .usernavigation li{
     display: inline-block;
     vertical-align: middle;
@@ -919,6 +911,13 @@ li{
     width:200px;
     color:white;
  }
+.footeruserinfo a:hover{
+      color:#e9b637;
+  }
+.footeruserinfo a:active{
+    color:white;
+    opacity: 0.5;
+}
 .footeruserinfo img{
     margin-bottom: 35px;
 }
@@ -935,9 +934,27 @@ li{
     content: url("../images/usernavigationprivatef.jpg");
     padding-top:20px;
 }
+.usernavigationprivate2:hover{
+    color:#e9b637;
+}
+.usernavigationprivate2:active{
+    color:#989898;
+}
+.usernavigationprivate2:hover::before{
+    content: url("../images/usernavigationprivatehover.png");
+}
+.usernavigationprivate2:active::before{
+    content: url("../images/usernavigationprivateactiver2.jpg");
+}
 .usernavigationbacket2::before{
     content: url("../images/usernavigationbacketf.jpg");
     padding:10px;
+}
+.usernavigationbacket2:active{
+    color:#989898;
+}
+.usernavigationbacket2:active::before{
+    opacity: 0.5;
 }
 .infofooter{
     display:flex;
@@ -956,6 +973,13 @@ li{
     color:white;
     font-size:20px;
 }
+.servicesandmap a:hover{
+    color:#e9b637;
+}
+.servicesandmap a:active{
+    color:white;
+    opacity: 0.5;
+}
 .servicesandmap ul{
     margin-bottom:20px;
 }
@@ -970,14 +994,42 @@ li{
 .tweet::before{
     content: url("../images/socialnetworkandrightsеtwet.jpg");
 }
+.tweet:hover::before{
+    content: url("../images/socialnetworkandrightsеtwethover.jpg");
+}
+.tweet:active::before{
+    content: url("../images/socialnetworkandrightsеtwet.jpg");
+    opacity:0.5;
+}
 .vk::before{
     content: url("../images/socialnetworkandrightsеvk.jpg");
+}
+.vk:hover::before{
+    content: url("../images/socialnetworkandrightsеvkhover.jpg");
+}
+.vk:hover:active{
+    content: url("../images/socialnetworkandrightsеvk.jpg");
+    opacity: 0.5;
 }
 .fc::before{
     content: url("../images/socialnetworkandrightsеfc.jpg");
 }
+.fc:hover::before{
+    content: url("../images/socialnetworkandrightsеfhover.jpg");
+}
+.fc:active::before{
+    content: url("../images/socialnetworkandrightsеfc.jpg");
+    opacity: 0.5;
+}
 .mail::before{
     content: url("../images/socialnetworkandrightsеmail.jpg");
+}
+.mail:hover::before{
+    content: url("../images/socialnetworkandrightsеmailhover.jpg");
+}
+.mail:active::before{
+    content: url("../images/socialnetworkandrightsеmail.jpg");
+    opacity: 0.5;
 }
 .socialnetworkandrights p{
     margin-left:70px;
