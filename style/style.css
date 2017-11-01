@@ -17,6 +17,8 @@ body {
     width: 100%;
     min-width: 1300px;
     max-width: 1920px;
+    min-height: 700px;
+    max-height:800px;
 }
 
 /**
@@ -519,7 +521,6 @@ li{
 .usernavigation li:nth-child(2){
     margin-left:80px;
 }
-
 .sitenavigation li{
     display: inline-block;
     vertical-align: middle;
@@ -545,12 +546,22 @@ li{
     display: none;
 }
 .sitenavigation li:hover ul {
-    display: inline-block;
+    display:block;
 }
 .sitenavigation li:hover~.sitenavigationmenu {
+     position: absolute;
+     top:12%;
+     left:27.3%;
+ }
+.sitenavigation li:hover~.sitenavigationmenu2 {
     position: absolute;
     top:12%;
-    left:27.3%;
+    left:70.6%;
+}
+.sitenavigation li:hover~.sitenavigationmenu3 {
+    position: absolute;
+    top:12%;
+    left:82.3%;
 }
 .sitenavigation li ul li{
     margin-right:10px;
