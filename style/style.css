@@ -547,6 +547,11 @@ li{
 .sitenavigation li:hover ul {
     display: inline-block;
 }
+.sitenavigation li:hover~.sitenavigationmenu {
+    position: absolute;
+    top:12%;
+    left:27.3%;
+}
 .sitenavigation li ul li{
     margin-right:10px;
 }
@@ -838,15 +843,27 @@ li{
     margin-bottom:20px;
 }
 .aboutcompany a{
+    position: relative;
     font-size:20px;
     color:black;
     font-weight:bold;
+    z-index:3;
 }
 .dividinglineaboutcompany{
     width:100px;
     height:8px;
     background: #e9b637;
     margin-bottom:25px;
+}
+.dividinglineaboutcompany2{
+    position: relative;
+    top:-3%;
+    left:-4%;
+    width:200px;
+    height:8px;
+    background: #e9b637;
+    margin-bottom:25px;
+    z-index:1;
 }
 .dispatch{
     background: #3c3c3c;
@@ -891,6 +908,14 @@ li{
     font-size:25px;
     color:#3c3c3c;
     padding:10px 0 10px 0;
+}
+.dispatch input[type="submit"]:hover{
+    background: white;
+    border:2px solid #e9b637;
+    color:#e9b637;
+}
+.dispatch input[type="submit"]:active{
+    opacity: 0.5;
 }
 .infofooter{
     background: #464646;
