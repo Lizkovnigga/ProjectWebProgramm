@@ -464,6 +464,7 @@ li{
     display: none;
     position: fixed;
     padding: 40px;
+    box-shadow: 28px 28px 100px 28px rgba(0,0,0,0.25);
 }
 .modalwin h2{
     font-size: 23px;
@@ -486,6 +487,10 @@ li{
 #remembercheckbox{
     display:none;
 }
+.modalwin label{
+    font-weight: bold;
+    margin-right: 80px;
+}
 .modalwin label::before{
     content: "";
     border:2px solid black;
@@ -496,6 +501,16 @@ li{
 .modalwin #remembercheckbox:checked~label[for="remembercheckbox"]::before{
     background-image: url(../images/remembercheckbox.jpg);
     background-repeat: no-repeat;
+}
+.modalwin a{
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.modalwin input[type="button"]{
+    margin-top: 30px;
+    background: black;
+    color: white;
 }
 /*header*/
 .colorheader1 {
