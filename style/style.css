@@ -528,6 +528,11 @@ li{
      background-repeat: no-repeat;
      background-position: right;
 }
+.modalwin input[type="button"]{
+    color:white;
+    background: black;
+    margin-top: 30px;
+}
 
 /*header*/
 .colorheader1 {
