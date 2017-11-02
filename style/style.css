@@ -507,11 +507,28 @@ li{
     font-weight: bold;
     text-decoration: underline;
 }
-.modalwin input[type="button"]{
-    margin-top: 30px;
-    background: black;
-    color: white;
+#shadow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top:0;
 }
+.modalwin input[type="text"]::placeholder {
+    color:black;
+}
+.modalwinloginbg{
+    background-image: url(../images/modalwinloginbg.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.modalwinpasswordbg{
+     background-image: url(../images/modalwinpasswordbg.jpg);
+     background-repeat: no-repeat;
+     background-position: right;
+}
+
 /*header*/
 .colorheader1 {
     background: #3c3c3c;
