@@ -464,7 +464,6 @@ li{
     display: none;
     position: fixed;
     padding: 40px;
-
 }
 .modalwin h2{
     font-size: 23px;
@@ -484,15 +483,19 @@ li{
     border: 2px solid black;
     padding:5px;
 }
-#shadow {
-    position: fixed;
-    width:100%;
-    height:100%;
-    z-index:1; /* поверх всех  кроме окна*/
-    background:#000;
-    opacity: 0.5; /*прозрачность*/
-    left:0;
-    top:0;
+#remembercheckbox{
+    display:none;
+}
+.modalwin label::before{
+    content: "";
+    border:2px solid black;
+    background: none;
+    padding:0px 8px 0px 8px;
+    margin-right:5px;
+}
+.modalwin #remembercheckbox:checked~label[for="remembercheckbox"]::before{
+    background-image: url(../images/remembercheckbox.jpg);
+    background-repeat: no-repeat;
 }
 /*header*/
 .colorheader1 {
