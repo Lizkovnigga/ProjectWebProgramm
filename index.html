@@ -11,7 +11,7 @@
 
     <nav>
         <div class="colorheader1">
-            <ul class="usernavigation one wrapper2">
+            <ul class="usernavigation one wrapper">
                 <li> <img src="images/magnologo.jpg" alt="magnologo"> </li>
                 <li> <a class="usernavigationtel" href="tel:">+ 7 900 000 00 00</a> </li>
                 <li>
@@ -19,15 +19,14 @@
                         <input type="search" placeholder="Поиск по сайту">
                     </form>
                 </li>
-                <li><a class="usernavigationprivate" href="#" onclick="showModalWin()"">Личный кабинет</a></li>
+                <li><a class="usernavigationprivate" href="#" onclick="showModalWin()">Личный кабинет</a></li>
                 <li><a class="usernavigationbacket" href="#">Корзина</a></li>
             </ul>
         </div>
-
         <div class="colorheader2">
-            <ul class="sitenavigation wrapper2">
-                <li class="sitenavigationdropdownmenu"><a href="#">Все категории</a>
-                    <ul>
+            <ul class="sitenavigation wrapper">
+                <li><a href="#">Все категории</a>
+                    <ul class="sitenavigationdropdownmenu">
                         <li><a href="#">Роутеры</a></li>
                         <li><a href="#">Игровые симуляторы</a></li>
                         <li><a href="#">Комплектующие</a></li>
@@ -36,24 +35,13 @@
                         <li><a href="#">Моноблоки и ноутубки</a></li>
                     </ul>
                 </li>
-                <li class="sitenavigationmenu"> <a href="#">Доставка</a> </li>
-                <li class="sitenavigationmenu2"> <a href="#">Гарантия</a> </li>
-                <li class="sitenavigationmenu3"> <a href="#">Контакты</a> </li>
+                <li > <a href="#">Доставка</a> </li>
+                <li > <a href="#">Гарантия</a> </li>
+                <li > <a href="#">Контакты</a> </li>
             </ul>
         </div>
     </nav>
-    <div id="popupWin" class="modalwin">
-        <h2> ЛИЧНЫЙ КАБИНЕТ </h2>
-        <p>ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И ПАРОЛЬ</p>
-        <form>
-            <input class="modalwinloginbg" type="text" placeholder="ЛОГИН">
-            <input class="modalwinpasswordbg" type="text" placeholder="ПАРОЛЬ">
-            <input id="remembercheckbox" type="checkbox" checked >
-            <label for="remembercheckbox">ЗАПОМНИТЕ МЕНЯ</label>
-            <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
-            <input type="button" value="ВОЙТИ">
-        </form>
-    </div>
+
 
 </header>
 
@@ -91,7 +79,6 @@
                     <label  for="slide3"></label>
                 </div>
             </div>
-
 
 
         </section>
@@ -175,7 +162,7 @@
 
     <div class="crutchaboutcompanyanddispatch wrapper">
 
-        <section class="aboutcompany ">
+        <section class="aboutcompany">
 
             <h3>наша компания</h3>
 
@@ -265,6 +252,30 @@
      </div>
 
  </footer>
+
+<div id="popupWin" class="modalwin">
+    <h2> ЛИЧНЫЙ КАБИНЕТ </h2>
+    <p>ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И ПАРОЛЬ</p>
+    <form>
+        <input class="modalwinloginbg" type="text" placeholder="ЛОГИН">
+        <input class="modalwinpasswordbg" type="text" placeholder="ПАРОЛЬ">
+        <input id="remembercheckbox" type="checkbox" checked >
+        <label for="remembercheckbox">ЗАПОМНИТЕ МЕНЯ</label>
+        <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
+        <input type="button" value="ВОЙТИ">
+    </form>
+</div>
+
+<div id="popupWin2" class="modalwin2">
+    <p>Ваше имя:</p>
+    <input type="text" placeholder="Представьтесь, пожалуйста">
+    <p>Ваше e-mail:</p>
+    <input type="email" placeholder="Для отправки ответа">
+    <p>Текст письма:</p>
+    <textarea name="" id="" cols="70" rows="5" placeholder="В свободной форме"></textarea>
+    <input type="button" value="Отправить">
+    <div class="dividinglinemodalwin2"></div>
+</div>
 
 <script src="javascript/index.js"></script>
  </body>
