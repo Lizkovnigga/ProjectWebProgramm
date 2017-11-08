@@ -263,10 +263,12 @@
         <label for="remembercheckbox">ЗАПОМНИТЕ МЕНЯ</label>
         <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
         <input type="button" value="ВОЙТИ">
+        <a class="closemodalwin"  onclick="hideA()" href="#"></a>
     </form>
 </div>
 
 <div id="popupWin2" class="modalwin2">
+    <a class="closemodalwin2" onclick="hideA()" href="#"></a>
     <div class="modalwin2flex">
         <p>Ваше имя:</p>
         <input type="text" placeholder="Представьтесь, пожалуйста">
@@ -280,7 +282,7 @@
 </div>
 
 <div id="popupWin3" class="modalwin3">
-    <img src="images/map.jpg" alt="map">
+    <img onclick="showModalWin()" src="images/map.jpg" alt="map">
 </div>
 
 <script src="javascript/index.js"></script>

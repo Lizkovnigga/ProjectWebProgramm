@@ -466,6 +466,19 @@ li{
     padding: 40px;
     box-shadow: 28px 28px 100px 28px rgba(0,0,0,0.25);
 }
+.closemodalwin::after{
+    content: url("../images/closemodalwin.png");
+    position: absolute;
+    top:0;
+    left:110%;
+}
+.closemodalwin2::after{
+    content: url("../images/closemodalwin2.png");
+    margin-left:80px;
+    position: absolute;
+    top:10%;
+    left:80%;
+}
 .modalwin h2{
     font-size: 23px;
     text-align: left;
@@ -551,6 +564,7 @@ li{
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-right:15px;
 }
 .modalwin2 input{
     line-height:40px;
@@ -603,7 +617,7 @@ li{
     left: -30%;
     width:600px;
     margin: 0 auto;
-    z-index:2;
+    z-index:6;
     display: none;
     box-shadow: 28px 28px 100px 28px rgba(0,0,0,0.25);
 }
@@ -746,6 +760,10 @@ modalwin3 img{
 }
 .wrapper2{
     width:1300px;
+    margin:0 auto;
+}
+.wrapper3{
+    width:300px;
     margin:0 auto;
 }
 
@@ -1269,6 +1287,9 @@ modalwin3 img{
     margin-bottom: 40px;
 }
 
+
+/*secondpage*/
+
 .filter{
     width:350px;
 }
@@ -1321,4 +1342,40 @@ modalwin3 img{
     height: 2px;
     margin-left:-25px;
     margin-bottom:10px;
+}
+
+
+
+.crutchcontent{
+    display: flex;
+    flex-shrink: 10;
+}
+.sorting ul li:first-child{
+    font-size: 26px;
+    color:#3c3c3c;
+}
+.sorting ul{
+    display: flex;
+    flex-grow:10;
+}
+.sorting ul li:first-child{
+    position: relative;
+    flex-grow: 10;
+}
+.sorting ul li:nth-child(2),
+.sorting ul li:nth-child(3),
+.sorting ul li:nth-child(4){
+    font-size: 18px;
+}
+.sortingcontent{
+    width:700px;
+}
+.sorting li{
+    margin-right: 10px;
+}
+.sorting a{
+    color:#c2c2c2;
+}
+.sorting ul a:active{
+    color:#777777;
 }
