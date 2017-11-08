@@ -570,21 +570,45 @@ li{
     border: none;
 }
 .modalwin2 input[type="button"]{
+    position: relative;
     border: none;
-    font-size: 15px;
+    font-size: 23px;
     font-weight: bold;
     width:150px;
-    z-index:10;
+    z-index:5;
+    background: none;
+    margin-top:15px;
 }
 .dividinglinemodalwin2{
     position: absolute;
-    top:85%;
-    left:6%;
+    top:82.5%;
+    left:8%;
     width:200px;
     height:8px;
     background: #e9b637;
     margin-bottom:25px;
+    z-index:3;
+}
+.modalwin2flex{
+    display: flex;
+    margin-bottom: 30px;
+}
+.modalwin2flex input[type='text']{
+    margin-right:15px;
+}
+.modalwin3{
+    position: fixed;
+    top: 5%;
+    right: 0;
+    left: -30%;
+    width:600px;
+    margin: 0 auto;
     z-index:2;
+    display: none;
+    box-shadow: 28px 28px 100px 28px rgba(0,0,0,0.25);
+}
+modalwin3 img{
+    width:300px;
 }
 /*header*/
 .colorheader1 {
@@ -608,6 +632,9 @@ li{
     font-family: "Century Gothic";
     border:1px solid white;
     background:#3c3c3c;
+    background-image: url("../images/usernavigationsearch.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .usernavigationsearch input:hover::placeholder{
     color:white;
@@ -648,12 +675,6 @@ li{
     content: url("../images/usernavigationbacket.jpg");
     padding:10px;
 }
-.usernavigation li:first-child{
-    margin-left:0px;
-}
-.usernavigation li:nth-child(2){
-    margin-left:80px;
-}
 
 
 .sitenavigation {
@@ -665,12 +686,12 @@ li{
 .sitenavigationdropdownmenu{
     display: none;
     flex-wrap: wrap;
-    flex-shrink: 0;
     background-color: #f0f0f0 ;
+    flex-grow: 10;
     width: 600px;
-    padding-top:10px;
+    padding-top:0;
     padding-bottom: 10px;
-    padding-right: 580px;
+    padding-right: 565px;
     z-index:2;
 }
 
@@ -685,12 +706,11 @@ li{
 .sitenavigation > li:first-child::after{
     content: url("../images/sitenavigationdropdownmenu.jpg");
 }
-
 .sitenavigationdropdownmenu {
     position: absolute;
     top: 25px;
     left:0;
-    margin-left:-2px;
+    margin-left: -2px;
 }
 .sitenavigationdropdownmenu li {
     margin-right: 10px;

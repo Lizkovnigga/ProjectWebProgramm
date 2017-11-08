@@ -1,5 +1,6 @@
 var  link= document.querySelector(".aboutcompany a");
 
+
 link.addEventListener("click", function (e) {
     e.preventDefault();
 
@@ -13,6 +14,26 @@ link.addEventListener("click", function (e) {
     darkLayer.onclick = function () {
         darkLayer.parentNode.removeChild(darkLayer);
         modalWin2.style.display = 'none'; // делаем окно невидимым
+    };
+
+});
+
+
+var  link2= document.querySelector(".servicesandmap a img");
+
+link2.addEventListener("click", function (y) {
+    y.preventDefault();
+
+    var darkLayer = document.createElement('div');
+    darkLayer.id = 'shadow';
+    document.body.appendChild(darkLayer);
+
+    var modalWin3 = document.getElementById('popupWin3');
+    modalWin3.style.display = 'block';
+
+    darkLayer.onclick = function () {
+        darkLayer.parentNode.removeChild(darkLayer);
+        modalWin3.style.display = 'none'; // делаем окно невидимым
     };
 
 });
