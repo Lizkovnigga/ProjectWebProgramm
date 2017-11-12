@@ -56,6 +56,30 @@ link8.addEventListener("click", function (k) {
     k.preventDefault();
 });
 
+var  link9= document.querySelector(".plus2");
+
+link9.addEventListener("click", function (k) {
+    k.preventDefault();
+});
+
+var  link10= document.querySelector(".minus2");
+
+link10.addEventListener("click", function (k) {
+    k.preventDefault();
+});
+
+var  link11= document.querySelector(".plus3");
+
+link11.addEventListener("click", function (k) {
+    k.preventDefault();
+});
+
+var  link12= document.querySelector(".minus3");
+
+link12.addEventListener("click", function (k) {
+    k.preventDefault();
+});
+
 function editinput(p){
     var test=document.getElementById("counter").innerHTML;
     if(p==1 || p>0){ test=parseInt(test) - 1; };
@@ -79,9 +103,35 @@ function editinput2(p){
     if(p==1){ test=parseInt(test) + 1; }
     document.getElementById("counter").innerHTML=test;
 };
+function editinput3(p){
+    var test=document.getElementById("counter3").innerHTML;
+    if(p==1 || p>0){ test=parseInt(test) - 1; };
+    if(test==0 || test<0){
+        test=0;
+    }
+    document.getElementById("counter3").innerHTML=test;
+};
 
 function editinput21(p){
     var test=document.getElementById("counter1").innerHTML;
     if(p==1){ test=parseInt(test) + 1; }
     document.getElementById("counter1").innerHTML=test;
+};
+function editinput2(p){
+    var test=document.getElementById("counter2").innerHTML;
+    if(p==1 || p>0){ test=parseInt(test) - 1; };
+    if(test==0 || test<0){
+        test=0;
+    }
+    document.getElementById("counter2").innerHTML=test;
+};
+function editinput22(p){
+    var test=document.getElementById("counter2").innerHTML;
+    if(p==1){ test=parseInt(test) + 1; }
+    document.getElementById("counter2").innerHTML=test;
+};
+function editinput23(p){
+    var test=document.getElementById("counter3").innerHTML;
+    if(p==1){ test=parseInt(test) + 1; }
+    document.getElementById("counter3").innerHTML=test;
 };
