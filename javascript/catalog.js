@@ -146,3 +146,28 @@ function editinput8(p){
     }
     document.getElementById("counter3").innerHTML=test;
 };
+var  link21= document.querySelector(".closemodalwin");
+
+link21.addEventListener("click", function (q) {
+    q.preventDefault();
+});
+
+var  link20=document.querySelector(".usernavigationprivate2");
+
+link20.addEventListener("click", function (q) {
+    q.preventDefault();
+});
+
+function hideA()
+{
+    a = document.getElementById("popupWin");
+    b=document.getElementById("popupWin2");
+    a.style.display = "none";
+    b.style.display = "none";
+};
+function showModalWin() {
+
+    var modalWin = document.getElementById('popupWin');
+    modalWin.style.display = 'block';
+
+};
