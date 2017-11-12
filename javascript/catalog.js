@@ -31,3 +31,30 @@ function showModalWin() {
     modalWin.style.display = 'block';
 
 };
+
+var  link5= document.querySelector(".plus");
+
+link5.addEventListener("click", function (k) {
+    k.preventDefault();
+});
+
+var  link6= document.querySelector(".minus");
+
+link6.addEventListener("click", function (k) {
+    k.preventDefault();
+});
+
+function editinput(p){
+    var test=document.getElementById("counter").innerHTML;
+    if(p==1 || p>0){ test=parseInt(test) - 1; }
+    if (p==0){
+        test=0;
+    }
+    document.getElementById("counter").innerHTML=test;
+}
+
+function editinput2(p){
+    var test=document.getElementById("counter").innerHTML;
+    if(p==1){ test=parseInt(test) + 1; }
+    document.getElementById("counter").innerHTML=test;
+}
