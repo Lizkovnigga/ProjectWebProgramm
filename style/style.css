@@ -1301,6 +1301,12 @@ modalwin4 img{
     font-size: 14px;
     color:#999999;
 }
+.captioncategories li a:hover{
+    color:#7c7c7c;
+}
+.captioncategories li a:active{
+    opacity: 0.5;
+}
 .titlecontent{
     margin-top:20px;
     color: #3c3c3c;
@@ -1351,6 +1357,12 @@ modalwin4 img{
     padding:0px 8px 0px 8px;
     margin-left: 10px;
 }
+.manufacturers label:hover::after{
+    opacity: 0.5;
+}
+.manufacturers label:hover{
+    opacity: 0.5;
+}
 .videocard label::after{
     content: "";
     border:2px solid #be9b44;
@@ -1358,6 +1370,12 @@ modalwin4 img{
     background: none;
     padding:0px 8px 0px 8px;
     margin-left: 10px;
+}
+.videocard label:hover::after{
+    opacity: 0.5;
+}
+.videocard label:hover{
+    opacity: 0.5;
 }
 .videocard input{
     display: none;
@@ -1442,6 +1460,9 @@ modalwin4 img{
 .sorting a:hover{
     color:#3b3b3b;
 }
+.sorting a:active{
+    opacity: 0.5;
+}
 .sorting li:nth-child(5) a::after{
     content: url("../images/sortingarrowup.jpg");
 }
@@ -1495,10 +1516,17 @@ modalwin4 img{
     margin-left: 5px;
     background: none;
 }
+.laptop div a:hover{
+    background:#e9b637;
+    color:white;
+}
+.laptop div a:active{
+    opacity:0.5;
+}
 .laptop div{
     margin-top:30px;
     margin-left:35px;
-    width:100px;
+    width:110px;
 }
 .laptop p span{
     color:#e9b637;
@@ -1523,7 +1551,14 @@ modalwin4 img{
     margin-left:25px;
     margin-top: 45px;
 }
-
+.laptop a:hover{
+    color:#e9b637;
+    border: 2px solid #e9b637;
+    background: none;
+}
+.laptop a:active{
+    opacity:0.5;
+}
 
 
 /*pagination*/
@@ -1565,4 +1600,7 @@ modalwin4 img{
 .pagination ul li a:hover{
     border-color: #e9b637;
     color: #e9b637;
+}
+.pagination ul li a:active{
+    opacity: 0.5;
 }
