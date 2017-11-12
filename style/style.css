@@ -1412,5 +1412,33 @@ modalwin3 img{
     padding:10px;
 }
 .laptop img{
-    background: url("../images/laptopacer.jpg");
+    margin-left: 35px;
+    margin-top:20px;
+}
+.laptop span:first-child{
+    background: #709f39;
+    padding:10px;
+    border:1px solid #acabab;
+    position: relative;
+    top:0;
+    left:70%;
+}
+.laptop h3{
+    font-size:16px;
+    font-weight: normal;
+    margin-left:90px;
+    margin-top: 10px;
+}
+.laptop a{
+    border:1px solid #f0f0f0;
+    padding:5px;
+    color:#ebbb4d;
+    margin-right:5px;
+    margin-left: 5px;
+}
+.laptop div{
+    margin-top:10px;
+    margin-left:25px;
+}
+.counter{
 }
