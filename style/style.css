@@ -1350,17 +1350,25 @@ modalwin3 img{
     display: flex;
     flex-shrink: 10;
 }
+
+
+/*sortingcontent*/
+.sorting{
+    background-color: #f0f0f0;
+    padding-top: 15px;
+    padding:15px 5px 15px 5px;
+    margin-bottom:20px;
+}
 .sorting ul li:first-child{
     font-size: 26px;
     color:#3c3c3c;
 }
 .sorting ul{
     display: flex;
-    flex-grow:10;
 }
 .sorting ul li:first-child{
     position: relative;
-    flex-grow: 10;
+    flex-grow:10;
 }
 .sorting ul li:nth-child(2),
 .sorting ul li:nth-child(3),
@@ -1376,6 +1384,33 @@ modalwin3 img{
 .sorting a{
     color:#c2c2c2;
 }
-.sorting ul a:active{
-    color:#777777;
+.sorting a:hover{
+    color:#3b3b3b;
+}
+.sorting li:nth-child(5) a::after{
+    content: url("../images/sortingarrowup.jpg");
+}
+.sorting li:nth-child(5) a:hover::after{
+    content: url("../images/sortingarrowuphover.jpg");
+}
+.sorting li:nth-child(6) a::after{
+    content: url("../images/sortingarrow.jpg");
+}
+.sorting li:nth-child(6) a:hover::after{
+    content: url("../images/sortingarrowhover.jpg");
+}
+
+/*contentlaptop*/
+.content{
+    width:700px;
+
+}
+.laptop{
+    height:400px;
+    width:300px;
+    border:1px solid #cdcccc;
+    padding:10px;
+}
+.laptop img{
+    background: url("../images/laptopacer.jpg");
 }
