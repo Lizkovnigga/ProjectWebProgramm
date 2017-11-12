@@ -88,8 +88,16 @@ function editinput(p){
     }
     document.getElementById("counter").innerHTML=test;
 };
+function editinput2(p){
+    var test=document.getElementById("counter").innerHTML;
+    if(p==1 || p>0){ test=parseInt(test) + 1; };
+    if(test==0 || test<0){
+        test=0;
+    }
+    document.getElementById("counter").innerHTML=test;
+};
 
-function editinput1(p){
+function editinput3(p){
     var test=document.getElementById("counter1").innerHTML;
     if(p==1 || p>0){ test=parseInt(test) - 1; };
     if(test==0 || test<0){
@@ -97,13 +105,32 @@ function editinput1(p){
     }
     document.getElementById("counter1").innerHTML=test;
 };
-
-function editinput2(p){
-    var test=document.getElementById("counter").innerHTML;
-    if(p==1){ test=parseInt(test) + 1; }
-    document.getElementById("counter").innerHTML=test;
+function editinput4(p){
+    var test=document.getElementById("counter1").innerHTML;
+    if(p==1 || p>0){ test=parseInt(test) + 1; };
+    if(test==0 || test<0){
+        test=0;
+    }
+    document.getElementById("counter1").innerHTML=test;
 };
-function editinput3(p){
+
+function editinput5(p){
+    var test=document.getElementById("counter2").innerHTML;
+    if(p==1 || p>0){ test=parseInt(test) - 1; };
+    if(test==0 || test<0){
+        test=0;
+    }
+    document.getElementById("counter2").innerHTML=test;
+};
+function editinput6(p){
+    var test=document.getElementById("counter2").innerHTML;
+    if(p==1 || p>0){ test=parseInt(test) + 1; };
+    if(test==0 || test<0){
+        test=0;
+    }
+    document.getElementById("counter2").innerHTML=test;
+};
+function editinput7(p){
     var test=document.getElementById("counter3").innerHTML;
     if(p==1 || p>0){ test=parseInt(test) - 1; };
     if(test==0 || test<0){
@@ -111,27 +138,11 @@ function editinput3(p){
     }
     document.getElementById("counter3").innerHTML=test;
 };
-
-function editinput21(p){
-    var test=document.getElementById("counter1").innerHTML;
-    if(p==1){ test=parseInt(test) + 1; }
-    document.getElementById("counter1").innerHTML=test;
-};
-function editinput2(p){
-    var test=document.getElementById("counter2").innerHTML;
-    if(p==1 || p>0){ test=parseInt(test) - 1; };
+function editinput8(p){
+    var test=document.getElementById("counter3").innerHTML;
+    if(p==1 || p>0){ test=parseInt(test) + 1; };
     if(test==0 || test<0){
         test=0;
     }
-    document.getElementById("counter2").innerHTML=test;
-};
-function editinput22(p){
-    var test=document.getElementById("counter2").innerHTML;
-    if(p==1){ test=parseInt(test) + 1; }
-    document.getElementById("counter2").innerHTML=test;
-};
-function editinput23(p){
-    var test=document.getElementById("counter3").innerHTML;
-    if(p==1){ test=parseInt(test) + 1; }
     document.getElementById("counter3").innerHTML=test;
 };

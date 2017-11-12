@@ -12,6 +12,17 @@ var  link3= document.querySelector(".closemodalwin2");
 link3.addEventListener("click", function (q) {
     q.preventDefault();
 });
+var  link21= document.querySelector(".closemodalwin");
+
+link21.addEventListener("click", function (q) {
+    q.preventDefault();
+});
+
+var  link20=document.querySelector(".usernavigationprivate2");
+
+link20.addEventListener("click", function (q) {
+    q.preventDefault();
+});
 
 function hideA()
 {
