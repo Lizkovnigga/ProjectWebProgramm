@@ -1403,10 +1403,13 @@ modalwin3 img{
 /*contentlaptop*/
 .content{
     width:700px;
-
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .laptop{
-    height:400px;
+    margin-top:20px;
+    height:350px;
     width:300px;
     border:1px solid #cdcccc;
     padding:10px;
@@ -1415,7 +1418,7 @@ modalwin3 img{
     margin-left: 35px;
     margin-top:20px;
 }
-.laptop span:first-child{
+.instock{
     background: #709f39;
     padding:10px;
     border:1px solid #acabab;
@@ -1429,16 +1432,39 @@ modalwin3 img{
     margin-left:90px;
     margin-top: 10px;
 }
-.laptop a{
+.laptop div a{
     border:1px solid #f0f0f0;
     padding:5px;
     color:#ebbb4d;
     margin-right:5px;
     margin-left: 5px;
+    background: none;
 }
 .laptop div{
-    margin-top:10px;
+    margin-top:30px;
     margin-left:25px;
+    width:80px;
 }
-.counter{
+.laptop p span{
+    color:#e9b637;
+    font-weight: bold;
+    background: white;
+    font-size: 25px;
+    margin-right: 5px;
+}
+.laptop p{
+    font-size: 20px;
+    color:#3c3c3c;
+    font-weight: bold;
+    position: relative;
+    top:-6%;
+    left:50%;
+}
+.laptop a{
+    background: #e9b637;
+    color:#3c3c3c;
+    font-size: 18px;
+    padding:10px 75px 10px 75px;
+    margin-left:25px;
+    margin-top: 45px;
 }
