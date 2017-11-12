@@ -1481,3 +1481,30 @@ modalwin3 img{
     display: flex;
     justify-content:space-between;
 }
+.pagination ul li:first-child a{
+    font-size:16px;
+    color:#ededed;
+    border:2px solid #ededed;
+    border-radius: 5px;
+    padding:5px;
+}
+.pagination ul li:last-child a{
+    font-size:16px;
+    color:#ededed;
+    border:2px solid #ededed;
+    border-radius: 5px;
+    padding:5px;
+}
+.pagination ul li:nth-child(2) a,
+.pagination ul li:nth-child(3) a,
+.pagination ul li:nth-child(4) a{
+    font-size:21px;
+    color:#ededed;
+    border:2px solid #ededed;
+    border-radius: 25px;
+    padding:5px 12px 5px 12px;
+}
+.pagination ul li a:hover{
+    border-color: #e9b637;
+    color: #e9b637;
+}
