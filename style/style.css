@@ -1468,3 +1468,16 @@ modalwin3 img{
     margin-left:25px;
     margin-top: 45px;
 }
+
+
+
+/*pagination*/
+.pagination{
+    width:700px;
+    margin:40px 500px 40px ;
+
+}
+.pagination ul{
+    display: flex;
+    justify-content:space-between;
+}
