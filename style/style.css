@@ -1489,7 +1489,7 @@ modalwin4 img{
 }
 .laptop div a{
     border:1px solid #f0f0f0;
-    padding:5px;
+    padding:10px;
     color:#ebbb4d;
     margin-right:5px;
     margin-left: 5px;
@@ -1497,8 +1497,8 @@ modalwin4 img{
 }
 .laptop div{
     margin-top:30px;
-    margin-left:25px;
-    width:80px;
+    margin-left:35px;
+    width:100px;
 }
 .laptop p span{
     color:#e9b637;

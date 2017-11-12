@@ -44,17 +44,44 @@ link6.addEventListener("click", function (k) {
     k.preventDefault();
 });
 
+var  link7= document.querySelector(".plus1");
+
+link7.addEventListener("click", function (k) {
+    k.preventDefault();
+});
+
+var  link8= document.querySelector(".minus1");
+
+link8.addEventListener("click", function (k) {
+    k.preventDefault();
+});
+
 function editinput(p){
     var test=document.getElementById("counter").innerHTML;
-    if(p==1 || p>0){ test=parseInt(test) - 1; }
-    if (p==0){
+    if(p==1 || p>0){ test=parseInt(test) - 1; };
+    if(test==0 || test<0){
         test=0;
     }
     document.getElementById("counter").innerHTML=test;
-}
+};
+
+function editinput1(p){
+    var test=document.getElementById("counter1").innerHTML;
+    if(p==1 || p>0){ test=parseInt(test) - 1; };
+    if(test==0 || test<0){
+        test=0;
+    }
+    document.getElementById("counter1").innerHTML=test;
+};
 
 function editinput2(p){
     var test=document.getElementById("counter").innerHTML;
     if(p==1){ test=parseInt(test) + 1; }
     document.getElementById("counter").innerHTML=test;
-}
+};
+
+function editinput21(p){
+    var test=document.getElementById("counter1").innerHTML;
+    if(p==1){ test=parseInt(test) + 1; }
+    document.getElementById("counter1").innerHTML=test;
+};
