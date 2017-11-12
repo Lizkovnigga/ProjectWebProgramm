@@ -1367,12 +1367,15 @@ modalwin3 img{
     background: #e9b637;
     border:0;
     color: #3c3c3c;
+    display: block;
 }
 .crutchcontent input[type="reset"]{
     width:90%;
     background: #606060;
     border:0;
     color: #b5b5b5;
+    display: block;
+    margin-top:10px;
 }
 .dividinglinefieldset{
     width:350px;

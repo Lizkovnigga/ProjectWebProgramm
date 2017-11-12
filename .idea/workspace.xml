@@ -24,8 +24,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="1363" column="7" lean-forward="false" selection-start-line="1363" selection-start-column="7" selection-end-line="1363" selection-end-column="7" />
+            <state relative-caret-position="527">
+              <caret line="1377" column="20" lean-forward="false" selection-start-line="1377" selection-start-column="20" selection-end-line="1377" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -194,12 +194,12 @@
       <workItem from="1509696286238" duration="3638000" />
       <workItem from="1509878355992" duration="630000" />
       <workItem from="1510151664390" duration="9350000" />
-      <workItem from="1510478987812" duration="14482000" />
+      <workItem from="1510478987812" duration="14612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75493000" />
+    <option name="totallyTimeSpent" value="75623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -492,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="1363" column="7" lean-forward="false" selection-start-line="1363" selection-start-column="7" selection-end-line="1363" selection-end-column="7" />
+        <state relative-caret-position="527">
+          <caret line="1377" column="20" lean-forward="false" selection-start-line="1377" selection-start-column="20" selection-end-line="1377" selection-end-column="20" />
           <folding />
         </state>
       </provider>
