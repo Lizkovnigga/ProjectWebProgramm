@@ -79,10 +79,15 @@
                 <fieldset class="manufacturers">
                     <legend>Производители</legend>
 
-                    <label>Lenovo<input type="checkbox"></label>
-                    <label>Phillips<input type="checkbox"></label>
-                    <label>Acer<input type="checkbox"></label>
-                    <label>HP<input type="checkbox"></label>
+                    <input id="choicemanuf" type="checkbox">
+                    <label for="choicemanuf" >Lenovo</label>
+                    <input id="choicemanuf2" type="checkbox">
+                    <label for="choicemanuf2">Phillips<input type="checkbox"></label>
+                    <input id="choicemanuf3" type="checkbox" checked>
+                    <label for="choicemanuf3">Acer</label>
+                    <input id="choicemanuf4" type="checkbox" >
+                    <label for="choicemanuf4">HP</label>
+
                 </fieldset>
 
                 <div class="dividinglinefieldset"></div>
@@ -90,9 +95,12 @@
                 <fieldset class="videocard">
                     <legend>Видеокарта</legend>
 
-                    <label>NVidia<input type="radio"></label>
-                    <label>AMD<input type="radio"></label>
-                    <label>Встроенная<input type="radio"></label>
+                    <input id="choicevidc" type="radio" checked>
+                    <label for="choicevidc" >NVidia</label>
+                    <input id="choicevidc2" type="radio">
+                    <label for="choicevidc2" >AMD</label>
+                    <input id="choicevidc3" type="radio">
+                    <label for="choicevidc3" >Встроенная</label>
                 </fieldset>
 
                 <div class="dividinglinefieldset"></div>
@@ -254,7 +262,7 @@
 </div>
 
     <div id="popupWin3" class="modalwin3">
-        <img onclick="showModalWin()" src="images/map.jpg" alt="map">
+        <img src="images/map.jpg" alt="map">
     </div>
 
 <script src="javascript/index.js"></script>

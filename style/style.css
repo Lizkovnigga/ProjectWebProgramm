@@ -1323,12 +1323,43 @@ modalwin3 img{
     margin-bottom:10px;
 }
 .filter label{
-    margin-right:30px;
+    margin-right:10px;
+    margin-bottom: 20px;
 }
-
 .filter input{
-    margin-left:20px;
-    margin-top:10px;
+    display: none;
+}
+.manufacturers label::after{
+    content: "";
+    border:1px solid #b6b6b6;
+    border-radius:5px ;
+    background: none;
+    padding:0px 8px 0px 8px;
+    margin-left: 10px;
+}
+.videocard label::after{
+    content: "";
+    border:2px solid #be9b44;
+    border-radius: 15px;
+    background: none;
+    padding:0px 8px 0px 8px;
+    margin-left: 10px;
+}
+.videocard input{
+    display: none;
+}
+.filter #choicemanuf:checked~label[for="choicemanuf"]::after,
+.filter #choicemanuf2:checked~label[for="choicemanuf2"]::after,
+.filter #choicemanuf3:checked~label[for="choicemanuf3"]::after,
+.filter #choicemanuf4:checked~label[for="choicemanuf4"]::after {
+    background-image: url("../images/checkboxon.png");
+    background-repeat: no-repeat;
+}
+.videocard #choicevidc:checked~label[for="choicevidc"]::after,
+.videocard #choicevidc2:checked~label[for="choicevidc2"]::after,
+.videocard #choicevidc3:checked~label[for="choicevidc3"]::after{
+    background:#bc9a44;
+    border: 2px solid white;
 }
 .filter input[type="submit"]{
     width:90%;
@@ -1337,7 +1368,7 @@ modalwin3 img{
     border:0;
     color: #3c3c3c;
 }
-.filter input[type="reset"]{
+.crutchcontent input[type="reset"]{
     width:90%;
     background: #606060;
     border:0;
