@@ -1089,10 +1089,10 @@ modalwin3 img{
     background: #515151;
     border:1px solid #a2a2a2;
 }
-.dispatch input[type="email"]:hover{
+.dispatch input[type="email"]:hover::placeholder{
     color:white;
 }
-.dispatch input[type="email"]:active{
+.dispatch input[type="email"]:active::placeholder{
     color:#eec348;
 }
 .dispatch input[type="submit"]{
@@ -1479,7 +1479,7 @@ modalwin3 img{
 }
 .pagination ul{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 .pagination ul li:first-child a{
     font-size:16px;
@@ -1487,6 +1487,7 @@ modalwin3 img{
     border:2px solid #ededed;
     border-radius: 5px;
     padding:5px;
+    flex: 0 1 auto;
 }
 .pagination ul li:last-child a{
     font-size:16px;
@@ -1494,6 +1495,7 @@ modalwin3 img{
     border:2px solid #ededed;
     border-radius: 5px;
     padding:5px;
+    flex: 0 1 auto;
 }
 .pagination ul li:nth-child(2) a,
 .pagination ul li:nth-child(3) a,
@@ -1503,6 +1505,7 @@ modalwin3 img{
     border:2px solid #ededed;
     border-radius: 25px;
     padding:5px 12px 5px 12px;
+    flex: 0 2.5;
 }
 .pagination ul li a:hover{
     border-color: #e9b637;

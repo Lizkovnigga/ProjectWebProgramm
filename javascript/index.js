@@ -7,16 +7,6 @@ link.addEventListener("click", function (e) {
 
 });
 
-var  link2= document.querySelector(".servicesandmap a img");
-
-link2.addEventListener("click", function (y) {
-    y.preventDefault();
-
-    var modalWin3 = document.getElementById('popupWin3');
-    modalWin3.style.display = 'block';
-
-});
-
 var  link3= document.querySelector(".closemodalwin2");
 
 link3.addEventListener("click", function (q) {
@@ -56,5 +46,6 @@ link4.addEventListener("click", function (s) {
     };
 
 });
+
 
 

@@ -218,7 +218,7 @@
                 <li> <a href="#">Контакты</a> </li>
             </ul>
 
-            <img src="images/servicesandmap.jpg" alt="map">
+            <a href="#"><img src="images/servicesandmap.jpg" alt="map"></a>
 
         </div>
 
@@ -239,4 +239,23 @@
     </div>
 
 </footer>
+<div id="popupWin" class="modalwin">
+    <h2> ЛИЧНЫЙ КАБИНЕТ </h2>
+    <p>ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И ПАРОЛЬ</p>
+    <form>
+        <input class="modalwinloginbg" type="text" placeholder="ЛОГИН">
+        <input class="modalwinpasswordbg" type="text" placeholder="ПАРОЛЬ">
+        <input id="remembercheckbox" type="checkbox" checked >
+        <label for="remembercheckbox">ЗАПОМНИТЕ МЕНЯ</label>
+        <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
+        <input type="button" value="ВОЙТИ">
+        <a class="closemodalwin"  onclick="hideA()" href="#"></a>
+    </form>
+</div>
+
+    <div id="popupWin3" class="modalwin3">
+        <img onclick="showModalWin()" src="images/map.jpg" alt="map">
+    </div>
+
+<script src="javascript/index.js"></script>
 </body>
