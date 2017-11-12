@@ -624,6 +624,20 @@ li{
 modalwin3 img{
     width:300px;
 }
+.modalwin4{
+    position: fixed;
+    top: 5%;
+    right: 0;
+    left: -30%;
+    width:600px;
+    margin: 0 auto;
+    z-index:6;
+    display: none;
+    box-shadow: 28px 28px 100px 28px rgba(0,0,0,0.25);
+}
+modalwin4 img{
+    width:300px;
+}
 /*header*/
 .colorheader1 {
     background: #3c3c3c;
