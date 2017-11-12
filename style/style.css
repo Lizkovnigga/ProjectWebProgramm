@@ -1095,6 +1095,13 @@ modalwin3 img{
 .dispatch input[type="email"]:active::placeholder{
     color:#eec348;
 }
+.dispatch input[type="email"]:active{
+    border-color: white;
+}
+.dispatch input[type="email"]:invalid{
+    color:#a44848;
+    border-color: #a44848;
+}
 .dispatch input[type="submit"]{
     line-height: 48px;
     margin-top:50px;
